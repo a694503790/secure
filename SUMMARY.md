@@ -4,7 +4,7 @@
 * [操作安全](chapter1.md)
 * [网络安全](wang-luo-an-quan-yao-qiu.md)
   * [是否已开启防火墙或安全组策略并设置正确的规则进行访问控制](wang-luo-an-quan-yao-qiu/shi-fou-yi-kai-qi-fang-huo-qiang-huo-an-quan-zu-ce-lve-bing-she-zhi-zheng-que-de-gui-ze-jin-xing-fang-wen-kong-zhi.md)
-  * 是否有对防火墙调整前的历史规则进行备份到指定目录（如是请在备注侧填写目录）
+  * [是否有对防火墙调整前的历史规则进行备份到指定目录（如是请在备注侧填写目录）](wang-luo-an-quan-yao-qiu/shi-fou-you-dui-fang-huo-qiang-diao-zheng-qian-de-li-shi-gui-ze-jin-xing-bei-fen-dao-zhi-ding-mu-lu-ff08-ru-shi-qing-zai-bei-zhu-ce-tian-xie-mu-lu-ff09.md)
   * [是否已禁止所有服务器的icmp功能](wang-luo-an-quan-yao-qiu/shi-fou-yi-jin-zhi-suo-you-fu-wu-qi-de-icmp-gong-neng.md)
   * 是否已禁止所有服务器的telnet-server功能
   * 不同的服务器群是否有采用安全分级的访问策略
