@@ -18,7 +18,7 @@
   * [是否已禁止所有服务器的telnet-server功能](wang-luo-an-quan-yao-qiu/shi-fou-yi-jin-zhi-suo-you-fu-wu-qi-de-telnet-server-gong-neng.md)
   * [不同的服务器群是否有采用安全分级的访问策略](wang-luo-an-quan-yao-qiu/bu-tong-de-fu-wu-qi-qun-shi-fou-you-cai-yong-an-quan-fen-ji-de-fang-wen-ce-lve.md)
   * [对直接供远程登陆的服务器是否有特定的安全防护（如vpn、安全组限定源ip、纯内网访问）](wang-luo-an-quan-yao-qiu/dui-zhi-jie-gong-yuan-cheng-deng-lu-de-fu-wu-qi-shi-fou-you-te-ding-de-an-quan-fang-hu-ff08-ru-vpn-3001-an-quan-zu-xian-ding-yuan-ip-3001-chun-nei-wang-fang-wen-ff09.md)
-* [系统安全](xi-tong-an-quan.md)
+* [Linux系统安全](xi-tong-an-quan.md)
   * root用户的authorized\_keys是否无信任的公钥
   * sshd是否禁止空密码登录
   * sshd是否强制V2 Protocol
@@ -44,6 +44,7 @@
   * /etc/profile下是否已配置umask值为027
   * 服务端口监听是否最小化
   * [是否未配置nfs/smb文件共享](xi-tong-an-quan/shi-fou-wei-pei-zhi-nfs-smb-wen-jian-gong-xiang.md)
+* [Windows系统安全](windowsxi-tong-an-quan.md)
 * [数据库安全](shu-ju-ku-an-quan.md)
   * 是否已禁止mysql以管理员帐号权限（root）启动运行
   * 是否满足数据库模块/账户最小化权限分配的原则
