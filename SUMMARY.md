@@ -2,6 +2,16 @@
 
 * [运维安全管理规范](README.md)
 * [操作安全](chapter1.md)
+  * [是否已准确提供完整的服务器清单汇总表](chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.md)
+  * 开发以及运维的工作是否各司其职，涉及运维操作由运维进行变更
+  * 项目的版本（代码）发布时间是否已固定周期
+  * 云服务器/虚拟服务器是否已开启自动镜像备份功能
+  * 云服务器/虚拟服务器是否已安装基础agent插件
+  * 是否有完备的性能监控系统，如蓝鲸、zabbix
+  * 是否已安装防病毒软件
+  * 是否已安装木马查杀软件
+  * 是否未安装破解软件或无授权的商业软件
+  * 是否已部署堡垒机
 * [网络安全](wang-luo-an-quan-yao-qiu.md)
   * [是否已开启防火墙或安全组策略并设置正确的规则进行访问控制](wang-luo-an-quan-yao-qiu/shi-fou-yi-kai-qi-fang-huo-qiang-huo-an-quan-zu-ce-lve-bing-she-zhi-zheng-que-de-gui-ze-jin-xing-fang-wen-kong-zhi.md)
   * [是否已禁止所有服务器的icmp功能](wang-luo-an-quan-yao-qiu/shi-fou-yi-jin-zhi-suo-you-fu-wu-qi-de-icmp-gong-neng.md)
