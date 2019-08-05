@@ -45,6 +45,7 @@
   * 服务端口监听是否最小化
   * [是否未配置nfs/smb文件共享](xi-tong-an-quan/shi-fou-wei-pei-zhi-nfs-smb-wen-jian-gong-xiang.md)
 * [Windows系统安全](windowsxi-tong-an-quan.md)
+  * AA
 * [数据库安全](shu-ju-ku-an-quan.md)
   * 是否已禁止mysql以管理员帐号权限（root）启动运行
   * 是否满足数据库模块/账户最小化权限分配的原则
