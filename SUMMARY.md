@@ -35,6 +35,6 @@
   * 服务端口监听是否最小化
   * [是否未配置nfs/smb文件共享](xi-tong-an-quan/shi-fou-wei-pei-zhi-nfs-smb-wen-jian-gong-xiang.md)
 * [数据库安全](shu-ju-ku-an-quan.md)
-* 中间件安全
-* 应用安全
+* [中间件安全](zhong-jian-jian-an-quan.md)
+* [应用安全](ying-yong-an-quan.md)
 
