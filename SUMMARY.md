@@ -3,7 +3,7 @@
 * [运维安全管理规范](README.md)
 * [操作安全](chapter1.md)
   * [是否已准确提供完整的服务器清单汇总表](chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.md)
-  * 开发以及运维的工作是否各司其职，涉及运维操作由运维进行变更
+  * [开发以及运维的工作是否各司其职，涉及运维操作由运维进行变更](chapter1/kai-fa-yi-ji-yun-wei-de-gong-zuo-shi-fou-ge-si-qi-zhi-ff0c-she-ji-yun-wei-cao-zuo-you-yun-wei-jin-xing-bian-geng.md)
   * 项目的版本（代码）发布时间是否已固定周期
   * 云服务器/虚拟服务器是否已开启自动镜像备份功能
   * 云服务器/虚拟服务器是否已安装基础agent插件
