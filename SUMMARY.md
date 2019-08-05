@@ -1,6 +1,6 @@
 # Summary
 
-* [道一云\|运维安全管理规范](README.md)
+* [运维安全管理规范](README.md)
 * [操作安全](chapter1.md)
 * [网络安全](wang-luo-an-quan-yao-qiu.md)
   * [是否已开启防火墙或安全组策略并设置正确的规则进行访问控制](wang-luo-an-quan-yao-qiu/shi-fou-yi-kai-qi-fang-huo-qiang-huo-an-quan-zu-ce-lve-bing-she-zhi-zheng-que-de-gui-ze-jin-xing-fang-wen-kong-zhi.md)
