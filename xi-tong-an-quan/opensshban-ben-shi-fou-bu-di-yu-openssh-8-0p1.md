@@ -44,7 +44,7 @@ SSHD=/usr/sbin/sshd 为 SSHD=/usr/local/sbin/sshd
 > 8.复制sshd配置文件
 ```
 cp sshd_config /etc/ssh/sshd_config
-**复制后需按照安全要求增加/修改sshd_config配置**
+> 复制后需按照安全要求增加/修改sshd_config配置
 ```
 > 9.修改初始化配置文件
 ```
