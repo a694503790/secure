@@ -25,6 +25,27 @@ tar -zxvf openssh-7.7p1.tar.gz
 ```
 make && make install
 ```
+> 6.拷贝ssh服务文件
+```
+cp ./contrib/redhat/sshd.init /etc/init.d/sshd
+chmod +x /etc/init.d/sshd
+```
+> 7.修改SSHD服务文件
+```
+vim /etc/init.d/sshd
+修改以下内容
+SSHD=/usr/sbin/sshd 为 SSHD=/usr/local/sbin/sshd
+/usr/sbin/ssh-keygen -A 为 /usr/local/bin/ssh-keygen -A 
+保存退出
+```
+> 8.复制sshd配置文件
+```
+cp sshd_config /etc/ssh/sshd_config
+```
+vim /etc/init.d/sshd
+在 ‘$SSHD $OPTIONS && success || failure’这一行上面加上一行 ‘OPTIONS="-f /etc/ssh/sshd_config"’
+保存退出
+```
 6.查看下安装结果：
 ```
 ssh -V
