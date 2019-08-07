@@ -7,34 +7,25 @@
 ssh -V
 rpm -qa | grep openssh
 ```
-> [下载最新版openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
->编译安装openssh
-> 1.    安装依赖包
->
+> 1.[下载openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
+> 
+> 2.安装依赖包
 ```
 yum install gcc openssl-devel zlib-devel
 ```
-> 2.    解压安装包：
+> 3.解压安装包
 ```
-tar -zxf openssh-7.7p1.tar.gz
+tar -zxvf openssh-7.7p1.tar.gz
 ```
->
-编译
-需要gcc编译器的
+> 4.编译
 ```
-./configure --prefix=/usr --sysconfdir=/etc/ssh
+./configure
 ```
+> 5.安装
 ```
-./configure --prefix=/usr --sysconfdir=/etc/ssh
-make
+make && make install
 ```
-需要测试：make完成后先不要make install，先卸载旧版的openssh
-rpm -e --nodeps `rpm -qa | grep openssh`
-完成后执行make install:
-```
-make install
-```
-查看下安装结果：
+6.查看下安装结果：
 ```
 ssh -V
 ```
