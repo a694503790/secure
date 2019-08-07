@@ -1,20 +1,21 @@
 # openssh版本是否不低于openssh-8.0p1
 
 - 操作方法
->注：升级ssh存在一定的危险性，一旦不成功可能无法通过远程连接到系统，因此在升级之前最好先安装vnc或者telnet等远程服务
+>注：升级ssh存在一定的危险性，一旦不成功可能无法通过远程连接到系统，因此在升级之前须安装vnc或者telnet等远程服务,升级后再关闭
 查看下当前SSH版本：
 ```
 ssh -V
 rpm -qa | grep openssh
 ```
-> 下载最新版openssh
-https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/openssh-7.7p1.tar.gz
-备份ssh配置
-```
-mv /etc/ssh/   /lee/bak/ssh.bak
-``` 
+> [下载最新版openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
+>
 编译安装openssh
-1、 解压安装包：
+> 1.    安装依赖包
+>
+```
+yum install gcc openssl-devel zlib-devel
+```
+2.    解压安装包：
 ```
 tar -zxf openssh-7.7p1.tar.gz
 ```
