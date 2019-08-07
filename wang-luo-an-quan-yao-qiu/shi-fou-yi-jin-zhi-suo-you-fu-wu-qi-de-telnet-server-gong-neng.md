@@ -1,7 +1,7 @@
 # 是否已禁止所有服务器的telnet-server功能
 
 - 操作方法
-> Linux默认是不开启该功能，但升级openssh过程中将会先打开该功能以作为backup，关闭方法：
+> Linux默认关闭该功能，如已开启，请关闭，关闭方法：
 ```
 yum remove telnet-server 
 ```
