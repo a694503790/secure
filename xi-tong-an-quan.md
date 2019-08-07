@@ -8,9 +8,6 @@
 - sshd空闲超时退出时间是否大于5分钟
 - sshd的登录次数是否限制小于6次
 - openssh版本是否不低于openssh-8.0p1
-- /etc/hosts.allow及/etc/hosts.deny的所属用户/组是否为root,权限644
-- /etc/hosts.deny是否添加拒绝所有telnet服务
-- /etc/hosts.allow是否添加具体可以ssh服务器的ip/ip段
 - /etc/passwd除root外是否无UID为0的高权限账号
 - /etc/passwd下无需登录的服务账号是否均为/sbin/nologin，有特殊的请备注
 - 所有账号密码是否为8位以上，且同时具备小写字母、大写字母、数字、特殊字符
