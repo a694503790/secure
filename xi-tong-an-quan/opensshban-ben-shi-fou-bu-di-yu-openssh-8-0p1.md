@@ -1,12 +1,11 @@
 # openssh版本是否不低于openssh-8.0p1
 
 - 操作方法
-> **注：升级ssh存在一定的危险性，一旦不成功可能无法通过远程连接到系统，因此在升级之前须安装vnc或者telnet等远程服务,升级后再关闭**
+> **注：升级ssh存在一定的危险性，一旦不成功可能无法通过远程连接到系统，因此在升级之前务必安装vnc或者telnet等远程服务,升级后再关闭**
 >
 > 查看下当前SSH版本：
 ```
 ssh -V
-rpm -qa | grep openssh
 ```
 > 1.[下载openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
 > 
@@ -63,4 +62,4 @@ ssh -V
 > ssh -V 的命令结果大于OpenSSH_8.0p1
 
 - 备注
-> 无
+> 以上操作已由创新技术中心在CentOS6.5/CentOS7.5实验无误
