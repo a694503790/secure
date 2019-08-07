@@ -6,7 +6,7 @@ cat /dev/null >/root/.ssh/authorized_keys
 ```
 
 - 判断依据
-> 根据是否可以从远端服务器通过telnet登录到此服务器判断
+> /root/.ssh/authorized_keys是否为空
 
 - 备注
-> Windows请填是
+> 如因自动化发布而必需则填是并备注说明

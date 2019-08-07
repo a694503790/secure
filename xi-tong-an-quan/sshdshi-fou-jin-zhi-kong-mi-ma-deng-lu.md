@@ -3,7 +3,7 @@
 - 操作方法
 > Linux默认关闭该功能，如已开启，请关闭，关闭方法：
 ```
-yum remove telnet-server 
+sed -i /PermitEmptyPasswords/'s///g' /etc/ssh/sshd_config
 ```
 
 - 判断依据
