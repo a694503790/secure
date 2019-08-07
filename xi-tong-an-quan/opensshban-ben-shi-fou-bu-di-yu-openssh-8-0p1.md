@@ -8,10 +8,13 @@
 ssh -V
 ```
 > 1.[下载openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
+```
+wget https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/openssh-8.0p1.tar.gz
+```
 > 
 > 2.安装依赖包
 ```
-yum install gcc openssl-devel zlib-devel
+yum install gcc openssl-devel zlib-devel -y
 ```
 > 3.解压安装包
 ```
