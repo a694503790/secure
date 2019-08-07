@@ -1,4 +1,4 @@
-# root用户的authorized_keys是否无信任的公钥
+# /etc/passwd除root外是否无UID为0的高权限账号
 
 - 操作方法
 > Linux默认关闭该功能，如已开启，请关闭，关闭方法：

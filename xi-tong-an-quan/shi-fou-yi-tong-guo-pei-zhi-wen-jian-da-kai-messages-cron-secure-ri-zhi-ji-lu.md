@@ -1,4 +1,4 @@
-# root用户的authorized_keys是否无信任的公钥
+# 是否已通过配置文件打开messages、cron、secure 日志记录
 
 - 操作方法
 > Linux默认关闭该功能，如已开启，请关闭，关闭方法：

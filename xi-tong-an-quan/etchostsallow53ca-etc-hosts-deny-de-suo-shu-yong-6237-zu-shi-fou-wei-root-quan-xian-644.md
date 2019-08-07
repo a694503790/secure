@@ -1,4 +1,4 @@
-# root用户的authorized_keys是否无信任的公钥
+# /etc/hosts.allow及/etc/hosts.deny的所属用户/组是否为root,权限644
 
 - 操作方法
 > Linux默认关闭该功能，如已开启，请关闭，关闭方法：
