@@ -1,9 +1,8 @@
 # 是否已禁止所有服务器的telnet-server功能
 
 - 操作方法
-> Linux默认关闭该功能，如已开启，请关闭，关闭方法：
 ```
-yum remove telnet-server 
+yum remove telnet-server  #Linux默认关闭
 ```
 
 - 判断依据

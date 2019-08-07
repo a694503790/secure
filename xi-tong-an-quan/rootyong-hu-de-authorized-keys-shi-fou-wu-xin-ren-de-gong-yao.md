@@ -1,9 +1,8 @@
 # root用户的authorized_keys是否无信任的公钥
 
 - 操作方法
-> Linux默认关闭该功能，如已开启，请关闭，关闭方法：
 ```
-yum remove telnet-server 
+cat /dev/null >/root/.ssh/authorized_keys
 ```
 
 - 判断依据
