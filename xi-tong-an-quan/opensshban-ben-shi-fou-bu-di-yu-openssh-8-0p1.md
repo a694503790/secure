@@ -42,24 +42,21 @@ SSHD=/usr/sbin/sshd 为 SSHD=/usr/local/sbin/sshd
 ```
 cp sshd_config /etc/ssh/sshd_config
 ```
+> 9.修改初始化配置文件
+```
 vim /etc/init.d/sshd
 在 ‘$SSHD $OPTIONS && success || failure’这一行上面加上一行 ‘OPTIONS="-f /etc/ssh/sshd_config"’
 保存退出
 ```
-6.查看下安装结果：
+> 10.重启ssh服务：
+```
+service sshd restart
+```
+> 11.查看下安装结果：
 ```
 ssh -V
 ```
-至此编译安装完成。
-配置sshd服务
-复制启动文件到/etc/init.d/下并命名为sshd，加入开机启动
-```
-cp contrib/redhat/sshd.init /etc/init.d/sshd
-chkconfig --add sshd
-```
-重启ssh服务：
-service sshd restart
-至此升级/安装完成。
+> 至此升级/安装完成。
 - 判断依据
 > ssh -V 的命令结果大于OpenSSH_8.0p1
 
