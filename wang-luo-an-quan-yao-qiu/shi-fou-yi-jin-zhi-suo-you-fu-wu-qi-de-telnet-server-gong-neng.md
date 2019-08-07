@@ -3,7 +3,7 @@
 - 操作方法
 > Linux默认是不开启该功能，但升级openssh过程中将会先打开该功能以作为backup，关闭方法：
 ```
-yum remove telnet-server #检查依赖关系
+yum remove telnet-server #检查依赖关系并移除
 ```
 
 - 判断依据
