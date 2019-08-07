@@ -7,7 +7,7 @@ yum remove telnet-server
 ```
 
 - 判断依据
-> 根据是否可以从远端服务器通过telnet登录到此服务器判断
+> ssh -V 的命令结果大于OpenSSH_8.0p1
 
 - 备注
-> Windows请填是
+> 无
