@@ -21,7 +21,6 @@
 * [Linux系统安全](xi-tong-an-quan.md)
   * [root用户的authorized\_keys是否无信任的公钥](xi-tong-an-quan/rootyong-hu-de-authorized-keys-shi-fou-wu-xin-ren-de-gong-yao.md)
   * [sshd是否禁止空密码登录](xi-tong-an-quan/sshdshi-fou-jin-zhi-kong-mi-ma-deng-lu.md)
-  * [sshd是否强制V2 Protocol](xi-tong-an-quan/sshdshi-fou-qiang-zhi-v2-protocol.md)
   * [sshd的LogLevel是否设置为INFO以上](xi-tong-an-quan/sshdde-loglevel-shifou-she-zhi-wei-info-yi-shang.md)
   * [sshd是否禁止root远程登录](xi-tong-an-quan/sshdshi-fou-jin-zhi-root-yuan-cheng-deng-lu.md)
   * [sshd空闲超时退出时间是否大于5分钟](xi-tong-an-quan/sshdkong-xian-chao-shi-tui-chu-shi-jian-shi-fou-da-yu-5-fen-zhong.md)
