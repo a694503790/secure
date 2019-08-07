@@ -46,8 +46,8 @@ cp sshd_config /etc/ssh/sshd_config
 > 9.修改初始化配置文件
 ```
 > vim /etc/init.d/sshd
-> 在 ‘$SSHD $OPTIONS && success || failure’这一行上面加上一行 ‘OPTIONS="-f /etc/ssh/sshd_config"’
-保存退出
+> 在 ‘$SSHD $OPTIONS && success || failure’这一行上面加上一行 > ‘OPTIONS="-f /etc/ssh/sshd_config"’
+> 保存退出
 ```
 > 10.重启ssh服务
 ```
