@@ -2,8 +2,9 @@
 
 - 操作方法
 > 建议部署如下监控系统或使用云上监控
-> 1    [蓝鲸智云](https://docs.bk.tencent.com/bkce_install_guide/)
-> 2    [zabbix](https://www.zabbix.com/documentation/4.0/zh/manual/installation/install)
+> 
+ 1.    [蓝鲸智云](https://docs.bk.tencent.com/bkce_install_guide/)
+ 2.    [zabbix](https://www.zabbix.com/documentation/4.0/zh/manual/installation/install)
 
 
 - 判断依据
