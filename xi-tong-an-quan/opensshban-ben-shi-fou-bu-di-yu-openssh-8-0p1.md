@@ -8,35 +8,22 @@ ssh -V
 rpm -qa | grep openssh
 ```
 > [下载最新版openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
->
-编译安装openssh
+>编译安装openssh
 > 1.    安装依赖包
 >
 ```
 yum install gcc openssl-devel zlib-devel
 ```
-2.    解压安装包：
+> 2.    解压安装包：
 ```
 tar -zxf openssh-7.7p1.tar.gz
 ```
-2、编译
+>
+编译
 需要gcc编译器的
 ```
 ./configure --prefix=/usr --sysconfdir=/etc/ssh
 ```
-如果报错：
-configure: error: *** zlib.h missing - please install first or check config.log ***
-需要安装zlib-devel
-```
-yum install -y zlib-devel
-```
-如果报错：
-configure: error: *** OpenSSL headers missing - please install first or check config.log ***
-需要安装openssl-devel
-```
-yum -y install openssl-devel
-```
-解决完报错后重新执行
 ```
 ./configure --prefix=/usr --sysconfdir=/etc/ssh
 make
