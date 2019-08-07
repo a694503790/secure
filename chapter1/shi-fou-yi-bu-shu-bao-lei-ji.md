@@ -1,7 +1,8 @@
 # 是否已部署堡垒机
 
 - 操作方法
-> 根据实际情况填写，对于云上机器，可以采购
+> 云服务器建议采购[云匣子](https://yunanbao.com.cn/index.html)
+> 非云服务器建议部署[Jumpserver堡垒机](https://docs.jumpserver.org/zh/docs/step_by_step.html)
 
 
 - 判断依据
