@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-sed -i '/PermitRootLogin/s/.*/PermitRootLogin no/' /etc/ssh/sshd_config 
+sed -i '/PermitRootLogin /s/.*/PermitRootLogin no/' /etc/ssh/sshd_config 
 ```
 
 - 判断依据
