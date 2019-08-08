@@ -3,9 +3,9 @@
 - 操作方法
 > **注：升级ssh存在一定的危险性，一旦不成功可能无法通过远程连接到系统，因此在升级之前务必安装vnc或者telnet等远程服务,升级后再关闭**
 >
-> 查看下当前SSH版本：
 ```
-ssh -V
+ssh -V # 查看当前SSH版本
+cp /etc/ssh/sshd_config /root/sshd_config.bak# 备份
 ```
 > 1.[下载openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
 ```
@@ -44,7 +44,8 @@ SSHD=/usr/sbin/sshd 为 SSHD=/usr/local/sbin/sshd
 > 8.复制sshd配置文件
 ```
 cp sshd_config /etc/ssh/sshd_config
-> 复制后需按照安全要求增加/修改sshd_config配置
+or  (如已备份请使用下面这条命令)
+cp /root/sshd_config.bak /etc/ssh/sshd_config
 ```
 > 9.修改初始化配置文件
 ```
