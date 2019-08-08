@@ -1,8 +1,11 @@
 # 是否已通过配置文件设定记录所有用户的登录和操作日志
 
 - 操作方法
+>  
+> ##### 将如下配置**追加**到/etc/profile
+>
 ```
-将如下配置追加到/etc/profile
+ echo "export HISTTIMEFORMAT='%F %T  '"
  history
  USER=`whoami`
  USER_IP=`who -u am i 2>/dev/null| awk '{print $NF}'|sed -e 's/[()]//g'`
@@ -22,9 +25,12 @@
  export HISTFILE="/var/log/history/${LOGNAME}/${USER}@${USER_IP}_$DT"
  chmod 600 /var/log/history/${LOGNAME}/*history* 2>/dev/null
 ```
-
+> 执行
+```
+source /etc/profile
+```
 - 判断依据
-> 根据是否可以从远端服务器通过telnet登录到此服务器判断
+> 根据是否在/var/log/history/有各用户的登录日志及执行命令记录
 
 - 备注
-> Windows请填是
+> 无
