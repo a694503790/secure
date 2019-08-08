@@ -6,7 +6,7 @@ cat /dev/null >/root/.ssh/authorized_keys
 ```
 
 - 判断依据
-> /root/.ssh/authorized_keys是否为空
+> 根据/root/.ssh/authorized_keys是否为空判断
 
 - 备注
 > 如因自动化发布而必需则填是并备注说明

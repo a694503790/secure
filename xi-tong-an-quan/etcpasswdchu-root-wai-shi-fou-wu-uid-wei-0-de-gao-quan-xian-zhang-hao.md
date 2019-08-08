@@ -5,7 +5,7 @@
 1.查找是否有uid=0的用户
 awk -F: '$3==0&&$1!="root"{print $0}' /etc/passwd 
 2.使用usermod修改
-usermod -u 1090 YourUserName
+usermod -u 1099 YourUserName
 ```
 
 - 判断依据

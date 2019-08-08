@@ -2,11 +2,11 @@
 
 - 操作方法
 ```
-sed -i '/LogLevel/s/.*/LogLevel INFO/' /etc/ssh/sshd_config 
+awk -F: '$3>500{if($7=="/bin/bash"&&$1!="mysql")print $0}' /etc/passwd
 ```
 
 - 判断依据
 > 根据/etc/ssh/sshd_config文件的LogLevel为INFO以上判断
 
 - 备注
-> 无
+> mysql无需备注
