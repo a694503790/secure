@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-sed -i '/PermitEmptyPasswords/s/.*/PermitEmptyPasswords no/' /etc/ssh/sshd_config
+sed -i '/PermitEmptyPasswords /s/.*/PermitEmptyPasswords no/' /etc/ssh/sshd_config
 ```
 
 - 判断依据

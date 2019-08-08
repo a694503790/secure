@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-sed -i '/MaxAuthTries/s/.*/MaxAuthTries 6/' /etc/ssh/sshd_config 
+sed -i '/MaxAuthTries /s/.*/MaxAuthTries 6/' /etc/ssh/sshd_config 
 ```
 
 - 判断依据

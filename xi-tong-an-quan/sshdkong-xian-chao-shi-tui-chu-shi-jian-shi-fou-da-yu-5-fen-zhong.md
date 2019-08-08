@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-sed -i '/ClientAliveInterval/s/.*/ClientAliveInterval 300/' /etc/ssh/sshd_config 
+sed -i '/ClientAliveInterval /s/.*/ClientAliveInterval 300/' /etc/ssh/sshd_config 
 ```
 
 - 判断依据

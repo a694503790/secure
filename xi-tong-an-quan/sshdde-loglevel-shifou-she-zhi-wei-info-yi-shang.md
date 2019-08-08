@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-sed -i '/LogLevel/s/.*/LogLevel INFO/' /etc/ssh/sshd_config 
+sed -i '/LogLevel /s/.*/LogLevel INFO/' /etc/ssh/sshd_config 
 ```
 
 - 判断依据
