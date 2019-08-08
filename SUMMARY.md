@@ -52,7 +52,7 @@
   * [是否具备完备的数据库备份机制（满足异机存放）](shu-ju-ku-an-quan/shi-fou-ju-bei-wan-bei-de-shu-ju-ku-bei-fen-ji-zhi-ff08-man-zu-yi-ji-cun-fang-ff09.md)
   * [是否对用户的敏感数据是否都采用加密的方式来存储](shu-ju-ku-an-quan/shi-fou-dui-yong-hu-de-min-gan-shu-ju-shi-fou-du-cai-yong-jia-mi-de-fang-shi-lai-cun-chu.md)
 * [中间件安全](zhong-jian-jian-an-quan.md)
-  * 是否已创建专用用户启动相应的中间件
+  * [是否已创建专用用户启动相应的中间件](zhong-jian-jian-an-quan/shi-fou-yi-chuang-jian-zhuan-yong-yong-hu-qi-dong-xiang-ying-de-zhong-jian-jian.md)
   * [是否已关闭中间件的管理控制台](zhong-jian-jian-an-quan/shi-fou-yi-guan-bi-zhong-jian-jian-de-guan-li-kong-zhi-tai.md)
   * [是否已开启中间件的记录访问日志](zhong-jian-jian-an-quan/shi-fou-yi-kai-qi-zhong-jian-jian-de-ji-lu-fang-wen-ri-zhi.md)
   * [是否已配置为高可用模式](zhong-jian-jian-an-quan/shi-fou-yi-pei-zhi-wei-gao-ke-yong-mo-shi.md)
