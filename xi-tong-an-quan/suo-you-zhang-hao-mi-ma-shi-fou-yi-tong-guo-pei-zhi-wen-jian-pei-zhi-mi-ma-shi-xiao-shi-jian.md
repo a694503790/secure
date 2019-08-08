@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-sed -i '/PASS_MAX_DAYS /s/.*/PASS_MAX_DAYS 90/' /etc/login.defs
+sed -i '/^PASS_MAX_DAYS.*/s/.*/PASS_MAX_DAYS 90/' /etc/login.defs
 ```
 
 - 判断依据

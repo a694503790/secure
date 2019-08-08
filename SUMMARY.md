@@ -43,11 +43,11 @@
 * [Windows系统安全](windowsxi-tong-an-quan.md)
   * AA
 * [数据库安全](shu-ju-ku-an-quan.md)
-  * 是否已禁止mysql以管理员帐号权限（root）启动运行
+  * [是否已禁止mysql以管理员帐号权限（root）启动运行](shu-ju-ku-an-quan/shi-fou-yi-jin-zhi-mysql-yi-guan-li-yuan-zhang-hao-quan-xian-ff08-root-ff09-qi-dong-yun-xing.md)
   * 是否满足数据库模块/账户最小化权限分配的原则
   * 是否所有数据库账号密码为8位以上，且同时具备小写字母、大写字母、数字、特殊字符
   * 是否已设置所有数据库账号仅本机访问或可信 IP 访问控制（即host不等于%）
-  * 是否已禁用所有用户的.mysql\_history（软链到/dev/null）
+  * [是否已禁用所有用户的.mysql\_history（软链到/dev/null）](shu-ju-ku-an-quan/shi-fou-yi-jin-yong-suo-you-yong-hu7684-mysql-history-ff08-ruan-lian-5230-dev-null.md)
   * 是否开启日志审计功能（查询日志、错误日志、二进制日志）
   * 是否采用集群或（主从）同步复制的高可用模式
   * 是否具备完备的数据库备份机制（满足异机存放）
@@ -66,11 +66,11 @@
   * 是否已设置中间件禁止运行 CGI 程序
   * 是否已设置中间件绑定监听地址为非0.0.0.0
 * [应用安全](ying-yong-an-quan.md)
-  * 应用版本更新前是否做好异机存放当前版本的备份再覆盖当前版本
-  * 应用系统是否存在单点故障的可能性
-  * 应用系统上线前是否经过源代码漏洞扫描
+  * [应用版本更新前是否做好异机存放当前版本的备份再覆盖当前版本](ying-yong-an-quan/ying-yong-ban-ben-geng-xin-qian-shi-fou-zuo-hao-yi-ji-cun-fang-dang-qian-ban-ben-de-bei-fen-zai-fu-gai-dang-qian-ban-ben.md)
+  * [应用系统是否存在单点故障的可能性](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-cun-zai-dan-dian-gu-zhang-de-ke-neng-xing.md)
+  * [应用系统上线前是否经过源代码漏洞扫描](ying-yong-an-quan/ying-yong-xi-tong-shang-xian-qian-shi-fou-jing-guo-yuan-dai-ma-lou-dong-sao-miao.md)
   * 应用系统上线前是否经过Web应用漏洞扫描
-  * 应用系统是否有接入第三方提供的抗攻击（DDOS、WAF）服务
+  * [应用系统是否有接入第三方提供的抗攻击（DDOS、WAF）服务](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-you-jie-ru-di-san-fang-ti-gong-de-kang-gong-ji-ff08-ddos-waf-ff09-fu-wu.md)
   * 应用系统涉及的组件是否监听最小化
   * 应用系统涉及的组件是否使用专用账号启动
   * 应用系统涉及配置数据库的连接池配置账号信息是否已加密
