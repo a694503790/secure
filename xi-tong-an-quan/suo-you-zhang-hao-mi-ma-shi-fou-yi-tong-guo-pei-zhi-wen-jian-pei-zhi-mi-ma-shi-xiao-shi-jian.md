@@ -1,13 +1,13 @@
 # 是否已通过配置文件配置密码失效时间等于90天
 
 - 操作方法
-> Linux默认关闭该功能，如已开启，请关闭，关闭方法：
 ```
-yum remove telnet-server 
+sed -i '/PASS_MAX_DAYS /s/.*/PASS_MAX_DAYS 90/' /etc/login.defs
 ```
 
 - 判断依据
-> 根据是否可以从远端服务器通过telnet登录到此服务器判断
+> 根据/etc/login.defs文件的PASS_MAX_DAYS是否为90判断
+
 
 - 备注
 > Windows请填是
