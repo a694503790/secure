@@ -10,4 +10,4 @@ sed -i '/PASS_MAX_DAYS /s/.*/PASS_MAX_DAYS 90/' /etc/login.defs
 
 
 - 备注
-> Windows请填是
+> 无
