@@ -32,7 +32,6 @@
   * [是否已通过配置文件配置密码复杂度要求](xi-tong-an-quan/suo-you-zhang-hao-mi-ma-shi-fou-yi-tong-guo-pei-zhi-wen-jian-pei-zhi-mi-ma-fu-za-du-yao-qiu.md)
   * [是否已通过配置文件配置密码失效时间等于90天](xi-tong-an-quan/suo-you-zhang-hao-mi-ma-shi-fou-yi-tong-guo-pei-zhi-wen-jian-pei-zhi-mi-ma-shi-xiao-shi-jian.md)
   * [是否已通过配置文件配置密码修改最小间隔时间](xi-tong-an-quan/suo-you-zhang-hao-mi-ma-shi-fou-yi-tong-guo-pei-zhi-wen-jian-pei-zhi-mi-ma-xiu-gai-zui-xiao-jian-ge-shi-jian.md)
-  * [是否已通过配置文件配置密码重用限制](xi-tong-an-quan/suo-you-zhang-hao-mi-ma-shi-fou-yi-tong-guo-pei-zhi-wen-jian-pei-zhi-mi-ma-zhong-yong-xian-zhi.md)
   * [是否已通过配置文件设置警告天数为7天](xi-tong-an-quan/suo-you-zhang-hao-mi-ma-shi-fou-yi-tong-guo-pei-zhi-wen-jian-she-zhi-jing-gao-tian-shu-wei-7-tian.md)
   * [/etc/passwd /etc/shadow /etc/group /etc/gshadow的所属用户/组是否为root，权限644](xi-tong-an-quan/etcpasswd-etcshadow-etcgroup-etcgshadowde-suo-shu-yong-6237-zu-shi-fou-wei-root-ff0c-quan-xian-644.md)
   * [是否已通过配置文件设定记录所有用户的登录和操作日志](xi-tong-an-quan/shi-fou-yi-tong-guo-pei-zhi-wen-jian-she-ding-ji-lu-suo-you-yong-hu-de-deng-lu-he-cao-zuo-ri-zhi.md)
@@ -44,27 +43,27 @@
   * AA
 * [数据库安全](shu-ju-ku-an-quan.md)
   * [是否已禁止mysql以管理员帐号权限（root）启动运行](shu-ju-ku-an-quan/shi-fou-yi-jin-zhi-mysql-yi-guan-li-yuan-zhang-hao-quan-xian-ff08-root-ff09-qi-dong-yun-xing.md)
-  * 是否满足数据库模块/账户最小化权限分配的原则
-  * 是否所有数据库账号密码为8位以上，且同时具备小写字母、大写字母、数字、特殊字符
-  * 是否已设置所有数据库账号仅本机访问或可信 IP 访问控制（即host不等于%）
+  * [是否满足数据库模块/账户最小化权限分配的原则](shu-ju-ku-an-quan/shi-fou-man-zu-shu-ju-ku-mo-5757-zhang-hu-zui-xiao-hua-quan-xian-fen-pei-de-yuan-ze.md)
+  * [是否所有数据库账号密码为8位以上，且同时具备小写字母、大写字母、数字、特殊字符](shu-ju-ku-an-quan/shi-fou-suo-you-shu-ju-ku-zhang-hao-mi-ma-wei-8-wei-yi-shang-ff0c-qie-tong-shi-ju-bei-xiao-xie-zi-mu-3001-da-xie-zi-mu-3001-shu-zi-3001-te-shu-zi-fu.md)
+  * [是否已设置所有数据库账号仅本机访问或可信 IP 访问控制（即host不等于%）](shu-ju-ku-an-quan/shi-fou-yi-she-zhi-suo-you-shu-ju-ku-zhang-hao-jin-ben-ji-fang-wen-huo-ke-xin-ip-fang-wen-kong-zhi-ff08-ji-host-bu-deng-4e8e25-ff09.md)
   * [是否已禁用所有用户的.mysql\_history（软链到/dev/null）](shu-ju-ku-an-quan/shi-fou-yi-jin-yong-suo-you-yong-hu7684-mysql-history-ff08-ruan-lian-5230-dev-null.md)
-  * 是否开启日志审计功能（查询日志、错误日志、二进制日志）
-  * 是否采用集群或（主从）同步复制的高可用模式
-  * 是否具备完备的数据库备份机制（满足异机存放）
-  * 是否对用户的敏感数据是否都采用加密的方式来存储
+  * [是否开启日志审计功能（查询日志、错误日志、二进制日志）](shu-ju-ku-an-quan/shi-fou-kai-qi-ri-zhi-shen-ji-gong-neng-ff08-cha-xun-ri-zhi-3001-cuo-wu-ri-zhi-3001-er-jin-zhi-ri-zhi-ff09.md)
+  * [是否采用集群或（主从）同步复制的高可用模式](shu-ju-ku-an-quan/shi-fou-cai-yong-ji-qun-huo-ff08-zhu-cong-ff09-tong-bu-fu-zhi-de-gao-ke-yong-mo-shi.md)
+  * [是否具备完备的数据库备份机制（满足异机存放）](shu-ju-ku-an-quan/shi-fou-ju-bei-wan-bei-de-shu-ju-ku-bei-fen-ji-zhi-ff08-man-zu-yi-ji-cun-fang-ff09.md)
+  * [是否对用户的敏感数据是否都采用加密的方式来存储](shu-ju-ku-an-quan/shi-fou-dui-yong-hu-de-min-gan-shu-ju-shi-fou-du-cai-yong-jia-mi-de-fang-shi-lai-cun-chu.md)
 * [中间件安全](zhong-jian-jian-an-quan.md)
   * 是否已创建专用用户启动相应的中间件
-  * 是否已关闭中间件的管理控制台
-  * 是否已开启中间件的记录访问日志
-  * 是否已配置为高可用模式
-  * 是否已设置中间件的httpd.conf、Server Root的所属用户所属组及权限（644）
+  * [是否已关闭中间件的管理控制台](zhong-jian-jian-an-quan/shi-fou-yi-guan-bi-zhong-jian-jian-de-guan-li-kong-zhi-tai.md)
+  * [是否已开启中间件的记录访问日志](zhong-jian-jian-an-quan/shi-fou-yi-kai-qi-zhong-jian-jian-de-ji-lu-fang-wen-ri-zhi.md)
+  * [是否已配置为高可用模式](zhong-jian-jian-an-quan/shi-fou-yi-pei-zhi-wei-gao-ke-yong-mo-shi.md)
+  * [是否已设置中间件的httpd.conf、Server Root的所属用户所属组及权限（644）](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-zhong-jian-jian-de-httpd-conf-server-root-de-suo-shu-yong-hu-suo-shu-zu-ji-quan-xian-ff08-644.md)
   * [是否已禁止中间件访问 Web 目录之外的任何文件](zhong-jian-jian-an-quan/shi-fou-yi-jin-zhi-zhong-jian-jian-fang-wen-web-mu-lu-zhi-wai-de-ren-he-wen-jian.md)
-  * 是否已禁止中间件目录列出
-  * 是否已设置错误页面重定向
-  * 是否已隐藏中间件的版本号
-  * 是否已关闭中间件的TRACE功能
-  * 是否已设置中间件禁止运行 CGI 程序
-  * 是否已设置中间件绑定监听地址为非0.0.0.0
+  * [是否已禁止中间件目录列出](zhong-jian-jian-an-quan/shi-fou-yi-jin-zhi-zhong-jian-jian-mu-lu-lie-chu.md)
+  * [是否已设置错误页面重定向](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-cuo-wu-ye-mian-zhong-ding-xiang.md)
+  * [是否已隐藏中间件的版本号](zhong-jian-jian-an-quan/shi-fou-yi-yin-cang-zhong-jian-jian-de-ban-ben-hao.md)
+  * [是否已关闭中间件的TRACE功能](zhong-jian-jian-an-quan/shi-fou-yi-guan-bi-zhong-jian-jian-de-trace-gong-neng.md)
+  * [是否已设置中间件禁止运行 CGI 程序](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-zhong-jian-jian-jin-zhi-yun-xing-cgi-cheng-xu.md)
+  * [是否已设置中间件绑定监听地址为非0.0.0.0](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-zhong-jian-jian-bang-ding-jian-ting-di-zhi-wei-fei-0-0-0-0.md)
 * [应用安全](ying-yong-an-quan.md)
   * [应用版本更新前是否做好异机存放当前版本的备份再覆盖当前版本](ying-yong-an-quan/ying-yong-ban-ben-geng-xin-qian-shi-fou-zuo-hao-yi-ji-cun-fang-dang-qian-ban-ben-de-bei-fen-zai-fu-gai-dang-qian-ban-ben.md)
   * [应用系统是否存在单点故障的可能性](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-cun-zai-dan-dian-gu-zhang-de-ke-neng-xing.md)
