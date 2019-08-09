@@ -1,13 +1,16 @@
-# 是否已通过配置文件打开messages、cron、secure 日志记录
+# 是否已通过配置文件打开rsyslog日志记录
 
 - 操作方法
-> Linux默认关闭该功能，如已开启，请关闭，关闭方法：
+> Linux默认已开启，如已关闭，请开启，开启方法：
 ```
-yum remove telnet-server 
+[CentOS Linux 7]
+systemctl restart rsyslog
+[CentOS Linux 6]
+service rsyslog restart
 ```
 
 - 判断依据
-> 根据是否可以从远端服务器通过telnet登录到此服务器判断
+> 根据service rsyslog status、systemctl status rsyslog判断
 
 - 备注
-> Windows请填是
+> 无
