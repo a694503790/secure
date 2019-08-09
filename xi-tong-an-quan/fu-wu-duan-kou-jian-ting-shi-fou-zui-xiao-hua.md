@@ -1,13 +1,17 @@
 # 服务端口监听是否最小化
 
 - 操作方法
-> Linux默认关闭该功能，如已开启，请关闭，关闭方法：
+> 
+仅列出关闭25端口的方法
 ```
-yum remove telnet-server 
+[CentOS Linux 7]
+systemctl stop postfix.service && systemctl disable postfix.service
+[CentOS Linux 6]
+service postfix stop && chkconfig postfix off
 ```
 
 - 判断依据
-> 根据是否可以从远端服务器通过telnet登录到此服务器判断
+> netstat -lntp的监听列表与清单汇总表一致
 
 - 备注
-> Windows请填是
+> 除22端口及清单汇总表列出的外均需关闭，如25端口
