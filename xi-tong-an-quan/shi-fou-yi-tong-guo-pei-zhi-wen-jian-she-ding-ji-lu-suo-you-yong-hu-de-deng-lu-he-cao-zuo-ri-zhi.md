@@ -5,7 +5,7 @@
 > ##### 将如下配置**追加**到/etc/profile
 >
 ```
- echo "export HISTTIMEFORMAT='%F %T  '"
+ export HISTTIMEFORMAT='%F %T  '
  history
  USER=`whoami`
  USER_IP=`who -u am i 2>/dev/null| awk '{print $NF}'|sed -e 's/[()]//g'`
