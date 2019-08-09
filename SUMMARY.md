@@ -52,7 +52,6 @@
   * [是否具备完备的数据库备份机制（满足异机存放）](shu-ju-ku-an-quan/shi-fou-ju-bei-wan-bei-de-shu-ju-ku-bei-fen-ji-zhi-ff08-man-zu-yi-ji-cun-fang-ff09.md)
   * [是否对用户的敏感数据是否都采用加密的方式来存储](shu-ju-ku-an-quan/shi-fou-dui-yong-hu-de-min-gan-shu-ju-shi-fou-du-cai-yong-jia-mi-de-fang-shi-lai-cun-chu.md)
 * [中间件安全](zhong-jian-jian-an-quan.md)
-  * [是否已创建专用用户启动相应的中间件](zhong-jian-jian-an-quan/shi-fou-yi-chuang-jian-zhuan-yong-yong-hu-qi-dong-xiang-ying-de-zhong-jian-jian.md)
   * [是否已关闭中间件的管理控制台](zhong-jian-jian-an-quan/shi-fou-yi-guan-bi-zhong-jian-jian-de-guan-li-kong-zhi-tai.md)
   * [是否已开启中间件的记录访问日志](zhong-jian-jian-an-quan/shi-fou-yi-kai-qi-zhong-jian-jian-de-ji-lu-fang-wen-ri-zhi.md)
   * [是否已配置为高可用模式](zhong-jian-jian-an-quan/shi-fou-yi-pei-zhi-wei-gao-ke-yong-mo-shi.md)
@@ -70,8 +69,7 @@
   * [应用系统上线前是否经过源代码漏洞扫描](ying-yong-an-quan/ying-yong-xi-tong-shang-xian-qian-shi-fou-jing-guo-yuan-dai-ma-lou-dong-sao-miao.md)
   * 应用系统上线前是否经过Web应用漏洞扫描
   * [应用系统是否有接入第三方提供的抗攻击（DDOS、WAF）服务](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-you-jie-ru-di-san-fang-ti-gong-de-kang-gong-ji-ff08-ddos-waf-ff09-fu-wu.md)
-  * 应用系统涉及的组件是否监听最小化
-  * 应用系统涉及的组件是否使用专用账号启动
+  * [应用系统涉及的组件是否监听最小化](ying-yong-an-quan/ying-yong-xi-tong-she-ji-de-zu-jian-shi-fou-jian-ting-zui-xiao-hua.md)
   * 应用系统涉及配置数据库的连接池配置账号信息是否已加密
   * 应用系统超级管理员账号是否8位以上，且同时具备小写字母、大写字母、数字、特殊字符
 
