@@ -6,8 +6,7 @@
 > 1.关闭smb
 ```
 [CentOS Linux 7]
-systemctl stop smb.service && systemctl disable smb
-.service
+systemctl stop smb.service && systemctl disable smb.service
 [CentOS Linux 6]
 service smb stop && chkconfig smb off
 ```
