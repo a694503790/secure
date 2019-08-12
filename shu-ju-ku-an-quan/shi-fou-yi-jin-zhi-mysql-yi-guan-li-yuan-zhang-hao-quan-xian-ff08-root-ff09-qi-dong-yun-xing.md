@@ -10,7 +10,7 @@ user=mysql
 
 
 - 判断依据
-> 根据判断 grep "user=mysql" /etc/my.cnf|grep -v '#' 判断
+> 根据 grep "user=mysql" /etc/my.cnf|grep -v '#' 判断
 
 - 备注
 > 无
