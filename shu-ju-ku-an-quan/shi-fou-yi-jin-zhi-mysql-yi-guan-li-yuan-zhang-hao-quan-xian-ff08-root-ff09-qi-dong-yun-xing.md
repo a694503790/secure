@@ -1,12 +1,16 @@
 # 是否已禁止mysql以管理员帐号权限（root）启动运行
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
+```
+vim /etc/my.cnf  
+# 添加如下项
+[mysqld]
+user=mysql
+```
 
 
 - 判断依据
-> 根据防火墙的规则是否符合《sheet 服务器清单汇总表》填写的端口判断
+> 根据判断 grep "user=mysql" /etc/my.cnf|grep -v '#' 判断
 
 - 备注
 > 无
