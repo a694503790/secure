@@ -18,7 +18,7 @@ yum install gcc openssl-devel zlib-devel -y
 ```
 > 3.解压安装包
 ```
-tar -zxvf openssh-7.7p1.tar.gz
+tar -zxvf openssh-8.0p1.tar.gz
 ```
 > 4.编译
 ```
