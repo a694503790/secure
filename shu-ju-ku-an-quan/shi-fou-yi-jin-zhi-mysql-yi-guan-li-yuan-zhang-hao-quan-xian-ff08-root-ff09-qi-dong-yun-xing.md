@@ -2,7 +2,7 @@
 
 - 操作方法
 ```
-vim /etc/my.cnf  
+shell> vim /etc/my.cnf  
 # 添加如下项
 [mysqld]
 user=mysql
