@@ -7,7 +7,7 @@ mysql> create database wxqyh;
 ```
 > 2. 应用数据需建立独立账号，禁止使用root账号作为应用连接账号
 ```
-mysql> create do1@localhost identified by 'Do1admin@123';
+mysql> create user do1@localhost identified by 'Do1admin@123';
 ```
 > 3. 应用账号需仅对应用的数据库有权限，对其它库无权限（分的越细越好）
 ```
