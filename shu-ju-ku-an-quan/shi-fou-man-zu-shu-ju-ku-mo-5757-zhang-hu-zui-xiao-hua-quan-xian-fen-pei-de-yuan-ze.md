@@ -20,5 +20,5 @@ mysql> revoke all privileges on mysql.* from do1@localhost;
 > 3. 根据show grants for [username]@[host]是否创建对于的应用数据库判断
 
 - 备注
-> 无
+> 以上三项均需满足方为满足本项
 
