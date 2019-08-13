@@ -1,8 +1,13 @@
 # 是否开启日志审计功能（查询日志、错误日志、二进制日志）
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
+```
+shell > vim /etc/my.cnf  
+# 增加如下项
+[mysqld]
+ bind-address = 127.0.0.1 or bind-address = 192.168.1.5 
+```
+
 
 
 - 判断依据

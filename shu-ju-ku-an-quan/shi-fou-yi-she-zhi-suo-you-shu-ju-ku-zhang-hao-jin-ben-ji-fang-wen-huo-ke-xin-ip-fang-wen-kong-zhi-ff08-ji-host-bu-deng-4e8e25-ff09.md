@@ -5,7 +5,8 @@
 ```
 shell > vim /etc/my.cnf  
 # 增加如下项
- bind-address = 127.0.0.1 or bind-address = 192.168.1.5 
+[mysqld]
+ bind-address = 127.0.0.1 #或为本机内网ip
 ```
 > 2. 设置所有用户仅通过本机localhost或指定ip访问
 ```
