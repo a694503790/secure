@@ -3,10 +3,10 @@
 - 操作方法
 ```
 [mysql 5.7]
-mysql> update user set authentication_string=PASSWORD('Do1admin@123') where user='do1';
+mysql> update mysql.user set authentication_string=PASSWORD('Do1admin@123') where user='do1';
 mysql> flush privileges;
 [mysql 5.6]
-mysql> update user set Password=PASSWORD('Do1admin@123') where user='do1';
+mysql> update mysql.user set Password=PASSWORD('Do1admin@123') where user='do1';
 mysql> flush privileges;
 ```
 

@@ -1,13 +1,19 @@
 # 是否已设置所有数据库账号仅本机访问或可信 IP 访问控制
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
-
-
+> 1. 设置仅监听本机localhost或本机内网ip
+```
+shell > vim /etc/my.cnf  
+# 增加如下项
+ bind-address = 127.0.0.1 or bind-address = 192.168.1.5 
+```
+> 2. 设置所有用户仅通过本机localhost或指定ip访问
+```
+mysql > update mysql.user set host='localhost' where user='do1';
+```
 - 判断依据
-> 根据防火墙的规则是否符合《sheet 服务器清单汇总表》填写的端口判断
-
+> 1. 根据my.cnf是否配置正确的bind-address判断
+> 2. 根据select user,host from mysql.user where host = '%' 判断
 - 备注
-> 即host不等于%/不监听0.0.0.0
+> 即不监听0.0.0.0且host不等于%
 
