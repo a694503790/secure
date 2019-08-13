@@ -43,7 +43,7 @@
   * AA
 * [数据库安全](shu-ju-ku-an-quan.md)
   * [是否已禁止mysql以管理员帐号权限（root）启动运行](shu-ju-ku-an-quan/shi-fou-yi-jin-zhi-mysql-yi-guan-li-yuan-zhang-hao-quan-xian-ff08-root-ff09-qi-dong-yun-xing.md)
-  * [是否已删除默认test库](shu-ju-ku-an-quan/shi-fou-yi-shan-chu-mo-ren-test-ku.md)
+  * [是否已删除默认test库及默认空用户](shu-ju-ku-an-quan/shi-fou-yi-shan-chu-mo-ren-test-ku.md)
   * [是否满足数据库模块/账户最小化权限分配的原则](shu-ju-ku-an-quan/shi-fou-man-zu-shu-ju-ku-mo-5757-zhang-hu-zui-xiao-hua-quan-xian-fen-pei-de-yuan-ze.md)
   * [是否所有数据库账号密码为8位以上，且同时具备小写字母、大写字母、数字、特殊字符](shu-ju-ku-an-quan/shi-fou-suo-you-shu-ju-ku-zhang-hao-mi-ma-wei-8-wei-yi-shang-ff0c-qie-tong-shi-ju-bei-xiao-xie-zi-mu-3001-da-xie-zi-mu-3001-shu-zi-3001-te-shu-zi-fu.md)
   * [是否已设置所有数据库账号仅本机访问或可信 IP 访问控制（即host不等于%）](shu-ju-ku-an-quan/shi-fou-yi-she-zhi-suo-you-shu-ju-ku-zhang-hao-jin-ben-ji-fang-wen-huo-ke-xin-ip-fang-wen-kong-zhi-ff08-ji-host-bu-deng-4e8e25-ff09.md)

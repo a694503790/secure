@@ -1,12 +1,16 @@
 # 是否满足数据库模块/账户最小化权限分配的原则
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
+> 1. 对于应用数据需分库（分模块）存储，禁止将数据插入mysql库
+```
+mysql> create database wxqyh;
+```
+> 2. 对于应用数据需建立独立账号，禁止使用root账号作为应用连接池账号
+
 
 
 - 判断依据
-> 根据防火墙的规则是否符合《sheet 服务器清单汇总表》填写的端口判断
+> 根据mysql> show grants;判断
 
 - 备注
 > 无
