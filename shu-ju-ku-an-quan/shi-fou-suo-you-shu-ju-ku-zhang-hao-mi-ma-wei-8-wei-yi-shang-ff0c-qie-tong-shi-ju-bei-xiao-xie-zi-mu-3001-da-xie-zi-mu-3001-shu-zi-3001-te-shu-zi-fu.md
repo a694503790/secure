@@ -12,7 +12,7 @@ mysql> flush privileges;
 
 - 判断依据
 > 1.根据各部门提供登录数据库的账号密码判断
-> 2.根据数据库的mysql.user表中的authentication_string/password是否为null判断
+> 2.根据mysql.user表中的authentication_string/password是否为null判断
 ```
 [mysql 5.7]
 select user,authentication_string from mysql.user where password='';
