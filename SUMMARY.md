@@ -71,6 +71,6 @@
   * 应用系统上线前是否经过Web应用漏洞扫描
   * [应用系统是否有接入第三方提供的抗攻击（DDOS、WAF）服务](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-you-jie-ru-di-san-fang-ti-gong-de-kang-gong-ji-ff08-ddos-waf-ff09-fu-wu.md)
   * [应用系统涉及的组件是否监听最小化](ying-yong-an-quan/ying-yong-xi-tong-she-ji-de-zu-jian-shi-fou-jian-ting-zui-xiao-hua.md)
-  * 应用系统涉及配置数据库的连接池配置账号信息是否已加密
+  * [应用系统涉及配置数据库的连接池配置账号信息是否已加密](ying-yong-an-quan/ying-yong-xi-tong-she-ji-pei-zhi-shu-ju-ku-de-lian-jie-chi-pei-zhi-zhang-hao-xin-xi-shi-fou-yi-jia-mi.md)
   * 应用系统超级管理员账号是否8位以上，且同时具备小写字母、大写字母、数字、特殊字符
 
