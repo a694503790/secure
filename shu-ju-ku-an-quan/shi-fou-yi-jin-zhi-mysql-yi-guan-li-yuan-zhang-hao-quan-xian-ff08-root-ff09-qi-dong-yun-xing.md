@@ -8,7 +8,6 @@ shell> vim /etc/my.cnf
 user=mysql
 ```
 
-
 - 判断依据
 > 根据 grep "user=mysql" /etc/my.cnf|grep -v '#'是否为真判断
 
