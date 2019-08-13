@@ -7,8 +7,8 @@ rm -rf /root/.mysql_history && ln -s /dev/null /root/.mysql_history
 ```
 
 - 判断依据
-> 根据ll /root/.mysql_history|grep null判断，
-> 根据ll /home/mysql/.mysql_history|grep null判断
+> 1. 根据ll /root/.mysql_history|grep null判断，
+> 2. 根据ll /home/mysql/.mysql_history|grep null判断
 
 - 备注
 > 无
