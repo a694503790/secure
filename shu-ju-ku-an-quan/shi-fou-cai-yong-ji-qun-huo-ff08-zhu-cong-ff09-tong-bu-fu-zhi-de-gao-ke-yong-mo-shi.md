@@ -30,8 +30,8 @@ mysql> change master to
     -> master_host='192.168.1.123', ###填写master节点的ip 
     -> master_user='repl', ###填写master创建的用户名
     -> master_password='1qaz#EDC2wsx',###填写master创建的密码
-    -> master_log_file='zhongtai-bin.000006', ###填写master获取的File
-    -> master_log_pos=328; ###填写master获取的Position
+    -> master_log_file='zhongtai-bin.000005', ###填写master获取的File
+    -> master_log_pos=739; ###填写master获取的Position
 mysql> start slave;
 ```
 - 判断依据
