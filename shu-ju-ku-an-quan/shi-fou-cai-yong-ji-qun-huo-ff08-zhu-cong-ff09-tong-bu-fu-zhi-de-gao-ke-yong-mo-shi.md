@@ -1,7 +1,18 @@
-# 是否采用集群或（主从）同步复制的高可用模式
+# 是否采用主从同步或集群的高可用模式
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
+> 主节点
+```
+shell > vim /etc/my.cnf  
+# 增加如下项
+[mysqld]
+server-id = 1
+log_bin = bin.log
+# 从节点
+mysql> CREATE USER 'repl'@'%' IDENTIFIED BY '1qaz#EDC2wsx';
+mysql> GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';
+mysql> flush privileges;
+```
 > Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
 
 
