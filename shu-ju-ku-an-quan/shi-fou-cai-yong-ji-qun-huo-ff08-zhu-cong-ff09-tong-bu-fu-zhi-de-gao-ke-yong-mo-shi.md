@@ -10,7 +10,7 @@ server-id = 1
 log_bin = bin.log
 # 主节点执行mysql命令
 mysql> CREATE USER 'repl'@'192.168.1.124' IDENTIFIED BY '1qaz#EDC2wsx';
-mysql> GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';
+mysql> GRANT REPLICATION SLAVE ON *.* TO 'repl'@'192.168.1.124';
 mysql> flush privileges;
 mysql> show master status; #记住File和Position
 +---------------------+----------+--------------+------------------+-------------------+
