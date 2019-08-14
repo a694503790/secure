@@ -38,5 +38,5 @@ mysql> start slave;
 > 根据从节点show slave status的结果判断
 
 - 备注
-> 无
+> 以上为最简易的配置方法，未按照实际应用场景相关my.cnf 
 
