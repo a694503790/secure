@@ -13,7 +13,7 @@ shell > vim /etc/my.cnf
 mysql > update mysql.user set host='localhost' where user='do1';
 ```
 - 判断依据
-> 1. 根据netstat -lnrp|grep mysql是否为0.0.0.0判断
+> 1. 根据netstat -lntp|grep mysql是否为0.0.0.0判断
 > 2. 根据select user,host from mysql.user where host = '%' 判断
 - 备注
 > 即不监听0.0.0.0且host不等于%
