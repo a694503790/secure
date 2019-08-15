@@ -1,13 +1,21 @@
 # 是否对用户的敏感数据是否都采用加密的方式来存储
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
-
+```
+mysql> create table test_tb (username varchar(32),userpwd char(40) not null);
+mysql> insert into test_tb (username,userpwd) values ('do1',sha1('1qaz#EDC2wsx'));
+mysql> select * from test_tb;
++----------+------------------------------------------+
+| username | userpwd                                  |
++----------+------------------------------------------+
+| do1      | 68703bd9d49a66664bfb7f4d36913aa439988c2f |
++----------+------------------------------------------+
+1 row in set (0.00 sec)
+```
 
 - 判断依据
 > 根据防火墙的规则是否符合《sheet 服务器清单汇总表》填写的端口判断
 
 - 备注
-> 无
+> 请在备注侧提供应用的密码所在tables,加密函数(建议sha1)参考[链接](https://dev.mysql.com/doc/refman/5.7/en/encryption-functions.html)
 
