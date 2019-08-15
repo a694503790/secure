@@ -14,7 +14,7 @@ mysql> select * from test_tb;
 ```
 
 - 判断依据
-> 根据防火墙的规则是否符合《sheet 服务器清单汇总表》填写的端口判断
+> 根据应用的用户所存储的密码是否已加密判断
 
 - 备注
 > 请在备注侧提供应用的密码所在tables,加密函数(建议sha1)参考[链接](https://dev.mysql.com/doc/refman/5.7/en/encryption-functions.html)

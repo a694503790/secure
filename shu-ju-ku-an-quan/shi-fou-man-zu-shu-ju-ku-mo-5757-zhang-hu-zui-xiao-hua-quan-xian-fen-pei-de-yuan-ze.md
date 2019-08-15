@@ -17,7 +17,7 @@ mysql> revoke all privileges on mysql.* from do1@localhost;
 - 判断依据
 > 1. 根据show databases是否创建应用数据库判断
 > 2. 根据select host,user from mysql.user是否创建应用账号判断
-> 3. 根据show grants for [username]@[host]是否创建对于的应用数据库判断
+> 3. 根据show grants for [username]@[host]是否创建对应的应用数据库判断
 
 - 备注
 > 以上三项均需满足方为满足本项
