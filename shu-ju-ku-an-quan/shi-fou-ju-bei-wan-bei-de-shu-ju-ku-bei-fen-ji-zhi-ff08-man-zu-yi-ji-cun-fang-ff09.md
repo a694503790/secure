@@ -10,7 +10,7 @@ mysql> grant all privileges on *.* to root@192.168.1.125;
 mysql> flush privileges;
 ```
 > 2.备份节点（192.168.1.125）按照下方操作全量备份
->>
+>
 ```
 > # 创建
 ddd
