@@ -9,11 +9,10 @@ mysql> create user root@192.168.1.125 identified by '1qaz#EDC2wsx';
 mysql> grant all privileges on *.* to root@192.168.1.125;
 mysql> flush privileges;
 ```
->
 > 2.备份节点（192.168.1.125）按照下方操作全量备份
 >>
 ```
->> # ddd
+> # 创建
 ddd
 ```
 - 判断依据
