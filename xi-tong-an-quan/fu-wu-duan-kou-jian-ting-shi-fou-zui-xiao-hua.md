@@ -1,8 +1,7 @@
 # 服务端口监听是否最小化
 
 - 操作方法
-> 
-仅列出关闭25端口的方法
+> 仅列出关闭25端口的方法
 ```
 [CentOS Linux 7]
 systemctl stop postfix.service && systemctl disable postfix.service
