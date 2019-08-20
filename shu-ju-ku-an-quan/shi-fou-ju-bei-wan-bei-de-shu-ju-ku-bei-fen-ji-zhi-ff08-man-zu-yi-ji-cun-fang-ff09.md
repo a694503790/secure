@@ -5,15 +5,17 @@
 >
 ```
 > # 创建备份用户
-mysql> create user root@192.168.1.125 identified by '1qaz#EDC2wsx';
+mysql> create user root@192.168.1.125 identified by 'Do1admin@123';
 mysql> grant all privileges on *.* to root@192.168.1.125;
 mysql> flush privileges;
 ```
 > 2.备份节点（192.168.1.125）按照下方操作全量备份
 >
 ```
-> # 创建
-ddd
+# 配置免密码
+shell> mysql_config_editor set --host=192.168.1.123 --user=root --login-path=125 --password
+# 输入密码Do1admin@123后测试登录
+shell> mysql --login-path=125
 ```
 - 判断依据
 > 通过备份节点是否有完备的数据库备份，是否已加入计划任务进行判断
