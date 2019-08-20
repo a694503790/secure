@@ -4,7 +4,7 @@
 > ##### 1.主节点（192.168.1.123）按照[链接](./shi-fou-kai-qi-ri-zhi-shen-ji-gong-neng-ff08-cha-xun-ri-zhi-3001-cuo-wu-ri-zhi-3001-er-jin-zhi-ri-zhi-ff09.md)操作开启二进制日志并创建备份用户
 >
 ```
-> # 创建备份用户
+> # 创建备份用户并授权
 mysql> create user root@192.168.1.125 identified by 'Do1admin@123';
 mysql> grant all privileges on *.* to root@192.168.1.125;
 mysql> flush privileges;
@@ -40,7 +40,7 @@ echo 开始:$Begin 结束:$Last $GZDumpFile succ >> $LogFile
 ```
 # 按需添加计划任务
 crontab -e
-0 2 * * * sh /home/mysql/backup/backup.sh
+0 2 * * * sh /home/mysql/backup/backup.sh &>/dev/null
 ```
 - 判断依据
 > 通过备份节点是否有完备的数据库备份，是否已加入计划任务进行判断
