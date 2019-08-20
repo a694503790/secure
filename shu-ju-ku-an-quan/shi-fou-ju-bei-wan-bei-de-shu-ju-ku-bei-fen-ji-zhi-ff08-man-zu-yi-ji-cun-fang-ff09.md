@@ -14,7 +14,7 @@ mysql> flush privileges;
 ```
 # 配置免密码
 shell> mysql_config_editor set --host=192.168.1.123 --user=root --login-path=125 --password
-# 输入密码Do1admin@123后测试登录
+# 输入密码(Do1admin@123)后测试登录
 shell> mysql --login-path=125
 ```
 - 判断依据
