@@ -62,7 +62,7 @@ service sshd restart
 ```
 chkconfig --add sshd
 ```
-> 11.查看下安装结果
+> 12.查看下安装结果
 ```
 ssh -V
 ```
