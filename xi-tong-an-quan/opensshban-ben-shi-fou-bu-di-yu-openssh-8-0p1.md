@@ -5,7 +5,7 @@
 >
 ```
 ssh -V # 查看当前SSH版本
-cp /etc/ssh/sshd_config /root/sshd_config.bak# 备份
+cp -r /etc/ssh/ /root/ssh_bak# 备份
 ```
 > 1.[下载openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
 ```
@@ -41,15 +41,15 @@ systemctl disable sshd
 mv /usr/lib/systemd/system/sshd.service ~
 ```
 >
-> 10.重启ssh服务
+> 7.重启ssh服务
 ```
 service sshd restart
 ```
-> 11.加入开机自启动
+> 8.加入开机自启动
 ```
 chkconfig --add sshd
 ```
-> 12.查看下安装结果
+> 9.查看下安装结果
 ```
 ssh -V
 ```
