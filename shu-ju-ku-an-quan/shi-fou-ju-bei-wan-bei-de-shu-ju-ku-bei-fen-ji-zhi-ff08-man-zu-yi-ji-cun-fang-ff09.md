@@ -30,7 +30,7 @@ Begin=`date +"%Y年%m月%d日 %H:%M:%S"`
 mkdir -p /home/mysql/backup
 cd $BakDir
 DumpFile=$Date.sql
-GZDumpFile=$Date.sql.tgz
+GZDumpFile=$Date.sql.tar.gz
 mysqldump --login-path=125 --events --all-databases --flush-logs --single-transaction --flush-privileges > $DumpFile
 tar -zvcf $GZDumpFile $DumpFile
 rm -rf $DumpFile
