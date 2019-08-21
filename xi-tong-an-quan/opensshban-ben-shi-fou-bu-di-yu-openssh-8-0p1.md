@@ -58,6 +58,10 @@ cp /root/sshd_config.bak /etc/ssh/sshd_config
 ```
 service sshd restart
 ```
+> 11.加入开机自启动
+```
+chkconfig --add sshd
+```
 > 11.查看下安装结果
 ```
 ssh -V
