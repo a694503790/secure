@@ -14,7 +14,7 @@ curl -O https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/openssh-8.0p1.tar.gz
 > 
 > 2.安装依赖包
 ```
-yum install gcc openssl-devel zlib-devel -y
+yum install gcc openssl-devel zlib-devel pam-devel -y
 ```
 > 3.解压安装包
 ```
@@ -33,23 +33,6 @@ make && make install
 ```
 cp ./contrib/redhat/sshd.init /etc/init.d/sshd
 chmod +x /etc/init.d/sshd
-```
-> 7.修改SSHD服务文件
-```
-dddd
-```
-> 8.复制sshd配置文件
-```
-cp sshd_config /etc/ssh/sshd_config
-or  (如已备份请使用下面这条命令)
-cp /root/sshd_config.bak /etc/ssh/sshd_config
-```
-> 9.修改初始化配置文件
-```
-> vim /etc/init.d/sshd
-> 在 ‘$SSHD $OPTIONS && success || failure’这一行上面加上一行
-> OPTIONS="-f /etc/ssh/sshd_config"
-> 保存退出
 ```
 >> 
 >> #### 如果是CentOS 7.*的系统先操作如下
