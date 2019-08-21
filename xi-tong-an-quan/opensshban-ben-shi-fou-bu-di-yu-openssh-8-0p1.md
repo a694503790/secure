@@ -35,8 +35,14 @@ cp ./contrib/redhat/sshd.init /etc/init.d/sshd
 chmod +x /etc/init.d/sshd
 ```
 >> 
->> #### 如果是CentOS 7.*的系统先操作如下
+>> #### 如果是CentOS 6.*的系统操作如下
 ```
+sed -i '/GSSAPIAuthentication /s/.*/# GSSAPIAuthentication no/' /etc/ssh/sshd_config 
+sed -i '/GSSAPICleanupCredentials /s/.*/# GSSAPICleanupCredentials no/' /etc/ssh/sshd_config 
+```
+>> #### 如果是CentOS 7.*的系统操作如下
+```
+chmod 600 /etc/ssh/ssh_host*
 systemctl disable sshd
 mv /usr/lib/systemd/system/sshd.service ~
 ```
