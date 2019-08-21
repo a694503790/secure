@@ -22,7 +22,8 @@ tar -zxvf openssh-8.0p1.tar.gz
 ```
 > 4.编译
 ```
-./configure
+cd openssh-8.0p1
+./configure --prefix=/usr --sysconfdir=/etc/ssh/  --with-pam --with-zlib
 ```
 > 5.安装
 ```
@@ -35,11 +36,7 @@ chmod +x /etc/init.d/sshd
 ```
 > 7.修改SSHD服务文件
 ```
-vim /etc/init.d/sshd
-修改以下内容
-SSHD=/usr/sbin/sshd 为 SSHD=/usr/local/sbin/sshd
-/usr/sbin/ssh-keygen -A 为 /usr/local/bin/ssh-keygen -A 
-保存退出
+dddd
 ```
 > 8.复制sshd配置文件
 ```
@@ -51,9 +48,16 @@ cp /root/sshd_config.bak /etc/ssh/sshd_config
 ```
 > vim /etc/init.d/sshd
 > 在 ‘$SSHD $OPTIONS && success || failure’这一行上面加上一行
-> ‘OPTIONS="-f /etc/ssh/sshd_config"’
+> OPTIONS="-f /etc/ssh/sshd_config"
 > 保存退出
 ```
+>> 
+>> #### 如果是CentOS 7.*的系统先操作如下
+```
+systemctl disable sshd
+mv /usr/lib/systemd/system/sshd.service ~
+```
+>
 > 10.重启ssh服务
 ```
 service sshd restart
