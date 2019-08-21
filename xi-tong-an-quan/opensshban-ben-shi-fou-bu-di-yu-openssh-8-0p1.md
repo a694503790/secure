@@ -4,8 +4,8 @@
 > **注：升级ssh存在一定的危险性，一旦不成功可能无法通过远程连接到系统，因此在升级之前务必安装vnc或者telnet等远程服务,升级后再关闭**
 >
 ```
-ssh -V # 查看当前SSH版本
-cp -r /etc/ssh/ /root/ssh_bak# 备份
+ssh -V #查看当前SSH版本
+cp -r /etc/ssh/ /root/ssh_bak #备份ssh配置
 ```
 > 1.[下载openssh](https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/)
 ```
