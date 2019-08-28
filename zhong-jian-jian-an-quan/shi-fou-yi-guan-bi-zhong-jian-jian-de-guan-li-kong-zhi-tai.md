@@ -15,6 +15,9 @@ shell> vim /apache-tomcat-8.5.45/conf/tomcat-users.xml
 ```
 - 判断依据
 > 根据tomcat-users.xml是否已注释rolename和username判断
+```
+grep "<role " tomcat-users.xml -C1|grep '<!--' #是否为假
+```
 
 - 备注
 > Tomcat8.5以上默认关闭，如是Weblogic/Websphere则填是并备注说明
