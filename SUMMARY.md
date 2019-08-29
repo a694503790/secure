@@ -55,7 +55,7 @@
 * [中间件安全](zhong-jian-jian-an-quan.md)
   * [是否已关闭中间件的管理控制台](zhong-jian-jian-an-quan/shi-fou-yi-guan-bi-zhong-jian-jian-de-guan-li-kong-zhi-tai.md)
   * [是否已开启中间件的记录访问日志](zhong-jian-jian-an-quan/shi-fou-yi-kai-qi-zhong-jian-jian-de-ji-lu-fang-wen-ri-zhi.md)
-  * [是否已配置为高可用模式](zhong-jian-jian-an-quan/shi-fou-yi-pei-zhi-wei-gao-ke-yong-mo-shi.md)
+  * [是否已配置为高可用/冗灾模式](zhong-jian-jian-an-quan/shi-fou-yi-pei-zhi-wei-gao-ke-yong-mo-shi.md)
   * [是否已设置中间件的httpd.conf、Server Root的所属用户所属组及权限（644）](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-zhong-jian-jian-de-httpd-conf-server-root-de-suo-shu-yong-hu-suo-shu-zu-ji-quan-xian-ff08-644.md)
   * [是否已禁止中间件访问 Web 目录之外的任何文件](zhong-jian-jian-an-quan/shi-fou-yi-jin-zhi-zhong-jian-jian-fang-wen-web-mu-lu-zhi-wai-de-ren-he-wen-jian.md)
   * [是否已禁止中间件目录列出](zhong-jian-jian-an-quan/shi-fou-yi-jin-zhi-zhong-jian-jian-mu-lu-lie-chu.md)
