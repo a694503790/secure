@@ -1,6 +1,7 @@
 # 是否已关闭中间件的管理控制台
 
 * 操作方法
+> 以下为tomcat的操作方法，其它中间件请看备注
   ```
   shell> vim /apache-tomcat-8.5.45/conf/tomcat-users.xml  
   <!--
