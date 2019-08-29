@@ -4,17 +4,14 @@
 
 ```
 vim /usr/local/nginx/conf/nginx.conf
-#access_log  logs/host.access.log  main;
-
+access_log  logs/host.access.log  main;
 ```
 
 * 判断依据
 
-> 根据tomcat-users.xml是否已注释rolename和username判断
->
-> ```
-> grep "<role " tomcat-users.xml -C1|grep '<!--' #是否为假
-> ```
+&gt;    dfdddd
+
+> 根据nginx.conf是否有写access\_log判断
 
 * 备注
 
