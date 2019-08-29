@@ -22,7 +22,7 @@
 
 * 备注
 
-  > Tomcat8.5以上默认关闭，如是Weblogic/Websphere则填是并备注说明
+  > Tomcat8.5以上默认关闭，如是nginx、haproxy、apache、weblogic、websphere则填是并备注说明
 
 
 
