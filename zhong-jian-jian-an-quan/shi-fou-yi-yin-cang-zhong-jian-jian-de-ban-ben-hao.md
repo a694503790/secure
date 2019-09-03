@@ -4,12 +4,16 @@
 > 1. 以下为**apache**的隐藏方法（默认未隐藏），其它中间件请看备注
   ```
   shell> vim /etc/httpd/conf/httpd.conf  
-  Options Indexes FollowSymLinks
+  ServerSignature On 
+  ServerTokens OS
   ```
-  > 将上方的Indexes去掉（大约在331行）改成下方后重启apache服务
+  > 将上方的ServerSignature和ServerTokens改成下方后重启apache服务
   ```
-  Options FollowSymLinks
+  ServerSignature Off
+  ServerTokens Prod
   ```
+  > *如果没有ServerSignature和ServerTokens手工添加即可*
+  > 
   2. 以下为**tomcat**的隐藏方法（默认未隐藏），其它中间件请看备注
   ```
   shell> vim /apache-tomcat-8.5.45/conf/web.xml
