@@ -16,15 +16,25 @@
   > 
   2. 以下为**tomcat**的隐藏方法（默认未隐藏），其它中间件请看备注
   ```
-  shell> vim /apache-tomcat-8.5.45/conf/web.xml
-  <param-name>listings</param-name>
-  <param-value>true</param-value>
+  shell> unzip /apache-tomcat-9.0.24/lib/catalina.jar
+  shell> vim ServerInfo.properties
   ```
-  > 确认上方的value为false，如是true，请改为false并重启tomcat服务
   ```
-  <param-name>listings</param-name>
-  <param-value>false</param-value>
+  server.info=Apache Tomcat/9.0.24
+  server.number=9.0.24.0
+  server.built=Aug 14 2019 21:16:42 UTC
   ```
+  &nbsp; &nbsp; 修改成
+  ```
+  server.info=Apache Tomcat
+  server.number=0.0.0.0
+  server.built=Aug 14 2019 21:16:42 UTC
+  ```
+  ```
+  shell> mv /apache-tomcat-9.0.24/lib/catalina.jar{,.bak}
+  shell> jar -cvf catalina.jar org/ META-INF/
+  ```
+  &nbsp; &nbsp; 最后重启Tomcat
   3. 以下为**nginx**的隐藏方法（默认未隐藏），其它中间件请看备注
   ```
   shell> vim /usr/local/nginx/conf/nginx.conf
@@ -39,11 +49,10 @@
   ```
 * 判断依据
 
-  > 在/var/www/html 以及 /apache-tomcat-8.5.45/webapps 目录下mkdir testdo1
-  >
   > ```
-  > curl http://127.0.0.1/testdo1/ #是否返回403判断
-  > curl http://127.0.0.1:8080/testdo1/ #是否返回404判断
+  > curl -I http://127.0.0.1/abcd/ #是否返回版本号判断
+  > curl -I http://127.0.0.1:8080/abcd/ #是否返回版本号判断
+  > curl -I http://127.0.0.1:8080/abcd/ |grep --color -i tomcat.* #是否返回版本号判断
   > ```
 
 * 备注
