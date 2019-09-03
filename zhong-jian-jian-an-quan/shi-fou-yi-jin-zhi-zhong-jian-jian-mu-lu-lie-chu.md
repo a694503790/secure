@@ -1,7 +1,7 @@
 # 是否已禁止中间件目录列出
 
 * 操作方法
-> 1. 以下为apache的关闭方法，其它中间件请看备注
+> 1. 以下为**apache**的关闭方法，其它中间件请看备注
   ```
   shell> vim /etc/httpd/conf/httpd.conf  
   Options Indexes FollowSymLinks
@@ -10,7 +10,7 @@
   ```
   Options FollowSymLinks
   ```
-  2. 以下为tomcat的关闭方法（默认关闭），其它中间件请看备注
+  2. 以下为**tomcat**的关闭方法（默认关闭），其它中间件请看备注
   ```
   shell> vim /apache-tomcat-8.5.45/conf/web.xml
   <param-name>listings</param-name>
