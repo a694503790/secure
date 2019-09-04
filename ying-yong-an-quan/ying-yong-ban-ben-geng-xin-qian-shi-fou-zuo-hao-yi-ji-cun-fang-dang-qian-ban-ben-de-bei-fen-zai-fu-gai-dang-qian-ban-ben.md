@@ -1,8 +1,7 @@
 # 应用版本更新前是否做好当前版本的备份再覆盖当前版本
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
+> 对于应用的新版本发布须先对当前版本进行备份后方可以覆盖当前版本
 
 
 - 判断依据
