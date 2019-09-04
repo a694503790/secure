@@ -58,7 +58,6 @@
   * [是否已配置为高可用/冗灾模式](zhong-jian-jian-an-quan/shi-fou-yi-pei-zhi-wei-gao-ke-yong-mo-shi.md)
   * [是否已禁止中间件目录列出](zhong-jian-jian-an-quan/shi-fou-yi-jin-zhi-zhong-jian-jian-mu-lu-lie-chu.md)
   * [是否已隐藏中间件的版本号](zhong-jian-jian-an-quan/shi-fou-yi-yin-cang-zhong-jian-jian-de-ban-ben-hao.md)
-  * [是否已设置中间件绑定监听地址为非0.0.0.0](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-zhong-jian-jian-bang-ding-jian-ting-di-zhi-wei-fei-0-0-0-0.md)
 * [应用安全](ying-yong-an-quan.md)
   * [应用版本更新前是否做好异机存放当前版本的备份再覆盖当前版本](ying-yong-an-quan/ying-yong-ban-ben-geng-xin-qian-shi-fou-zuo-hao-yi-ji-cun-fang-dang-qian-ban-ben-de-bei-fen-zai-fu-gai-dang-qian-ban-ben.md)
   * [应用系统是否存在单点故障的可能性](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-cun-zai-dan-dian-gu-zhang-de-ke-neng-xing.md)
