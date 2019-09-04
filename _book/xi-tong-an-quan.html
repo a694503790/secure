@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>操作安全 · GitBook</title>
+        <title>Linux系统安全 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.html" />
+    <link rel="next" href="xi-tong-an-quan/rootyong-hu-de-authorized-keys-shi-fou-wu-xin-ren-de-gong-yao.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="wang-luo-an-quan-yao-qiu/dui-zhi-jie-gong-yuan-cheng-deng-lu-de-fu-wu-qi-shi-fou-you-te-ding-de-an-quan-fang-hu-ff08-ru-vpn-3001-an-quan-zu-xian-ding-yuan-ip-3001-chun-nei-wang-fang-wen-ff09.html" />
     
 
     </head>
@@ -102,7 +102,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="chapter1.html">
+        <li class="chapter " data-level="1.2" data-path="chapter1.html">
             
                 <a href="chapter1.html">
             
@@ -335,7 +335,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="xi-tong-an-quan.html">
+        <li class="chapter active" data-level="1.4" data-path="xi-tong-an-quan.html">
             
                 <a href="xi-tong-an-quan.html">
             
@@ -1045,7 +1045,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >操作安全</a>
+        <a href="." >Linux系统安全</a>
     </h1>
 </div>
 
@@ -1060,44 +1060,29 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x64CD;&#x4F5C;&#x5B89;&#x5168;">&#x64CD;&#x4F5C;&#x5B89;&#x5168;</h1>
+                                <h3 id="&#x7CFB;&#x7EDF;&#x5B89;&#x5168;">&#x7CFB;&#x7EDF;&#x5B89;&#x5168;</h3>
 <ul>
-<li><p>&#x662F;&#x5426;&#x5DF2;&#x51C6;&#x786E;&#x63D0;&#x4F9B;&#x5B8C;&#x6574;&#x7684;&#x670D;&#x52A1;&#x5668;&#x6E05;&#x5355;&#x6C47;&#x603B;&#x8868;<em>&#xFF08;&#x5373;Sheet &#x670D;&#x52A1;&#x5668;&#x6E05;&#x5355;&#x6C47;&#x603B;&#xFF09;</em></p>
-</li>
-<li><p>&#x5F00;&#x53D1;&#x4EE5;&#x53CA;&#x8FD0;&#x7EF4;&#x7684;&#x5DE5;&#x4F5C;&#x662F;&#x5426;&#x5404;&#x53F8;&#x5176;&#x804C;&#xFF0C;&#x6D89;&#x53CA;&#x8FD0;&#x7EF4;&#x64CD;&#x4F5C;&#x7531;&#x8FD0;&#x7EF4;&#x8FDB;&#x884C;&#x53D8;&#x66F4;</p>
-</li>
-<li><p>&#x9879;&#x76EE;&#x7684;&#x7248;&#x672C;<em>&#xFF08;&#x4EE3;&#x7801;&#xFF09;</em>&#x53D1;&#x5E03;&#x65F6;&#x95F4;&#x662F;&#x5426;&#x5DF2;&#x56FA;&#x5B9A;&#x5468;&#x671F;</p>
-</li>
-<li><p>&#x4E91;&#x670D;&#x52A1;&#x5668;/&#x865A;&#x62DF;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5426;&#x5DF2;&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x955C;&#x50CF;&#x5907;&#x4EFD;&#x529F;&#x80FD;<em>&#xFF08;&#x5982;&#x7269;&#x7406;&#x673A;&#x586B;&#x662F;&#xFF09;</em></p>
-</li>
-<li><p>&#x4E91;&#x670D;&#x52A1;&#x5668;/&#x865A;&#x62DF;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5426;&#x5DF2;&#x5B89;&#x88C5;&#x57FA;&#x7840;agent&#x63D2;&#x4EF6;<em>&#xFF08;&#x5982;&#x7269;&#x7406;&#x673A;&#x586B;&#x662F;&#xFF09;</em></p>
-</li>
-<li><p>&#x662F;&#x5426;&#x6709;&#x5B8C;&#x5907;&#x7684;&#x6027;&#x80FD;&#x76D1;&#x63A7;&#x7CFB;&#x7EDF;&#xFF0C;&#x5982;&#x84DD;&#x9CB8;&#x3001;zabbix<em>&#xFF08;&#x5982;&#x662F;&#x8BF7;&#x5728;&#x5907;&#x6CE8;&#x4FA7;&#x5217;&#x51FA;&#x8BBF;&#x95EE;url&#xFF09;</em></p>
-</li>
-<li><p>&#x662F;&#x5426;&#x5DF2;&#x5B89;&#x88C5;&#x9632;&#x75C5;&#x6BD2;&#x8F6F;&#x4EF6;<em>&#xFF08;&#x5982;&#x662F;&#x8BF7;&#x5728;&#x5907;&#x6CE8;&#x4FA7;&#x586B;&#x5199;&#x8F6F;&#x4EF6;&#x540D;&#x79F0;&#xFF09;</em>&#x5E76;&#x540C;&#x65F6;&#x6EE1;&#x8DB3;&#xFF1A;</p>
-<blockquote>
-<ol>
-<li>&#x5904;&#x4E8E;&#x201C;&#x4FDD;&#x62A4;&#x4E2D;&#x201D;&#x7684;&#x72B6;&#x6001; </li>
-<li>&#x5DF2;&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x66F4;&#x65B0; </li>
-<li>&#x786E;&#x4FDD;&#x75C5;&#x6BD2;&#x5E93;&#x5DF2;&#x66F4;&#x65B0;&#x5230;&#x6700;&#x65B0;&#x7248;&#x672C;</li>
-</ol>
-</blockquote>
-</li>
-<li><p>&quot;&#x662F;&#x5426;&#x5DF2;&#x5B89;&#x88C5;&#x6728;&#x9A6C;&#x67E5;&#x6740;&#x8F6F;&#x4EF6;<em>&#xFF08;&#x5982;&#x662F;&#x8BF7;&#x5728;&#x5907;&#x6CE8;&#x4FA7;&#x586B;&#x5199;&#x8F6F;&#x4EF6;&#x540D;&#x79F0;&#xFF09;</em>&#x5E76;&#x540C;&#x65F6;&#x6EE1;&#x8DB3;&#xFF1A;</p>
-<blockquote>
-<ol>
-<li>&#x5904;&#x4E8E;&#x201C;&#x4FDD;&#x62A4;&#x4E2D;&#x201D;&#x7684;&#x72B6;&#x6001; </li>
-<li>&#x5DF2;&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x66F4;&#x65B0; </li>
-<li>&#x786E;&#x4FDD;&#x75C5;&#x6BD2;&#x5E93;&#x5DF2;&#x66F4;&#x65B0;&#x5230;&#x6700;&#x65B0;&#x7248;&#x672C;</li>
-</ol>
-</blockquote>
-</li>
-</ul>
-<ul>
-<li><p>&#x662F;&#x5426;&#x672A;&#x5B89;&#x88C5;&#x7834;&#x89E3;&#x8F6F;&#x4EF6;&#x6216;&#x65E0;&#x6388;&#x6743;&#x7684;&#x5546;&#x4E1A;&#x8F6F;&#x4EF6;</p>
-</li>
-<li><p>&#x662F;&#x5426;&#x5DF2;&#x90E8;&#x7F72;&#x5821;&#x5792;&#x673A;<em>&#xFF08;&#x5982;&#x662F;&#x8BF7;&#x63D0;&#x4F9B;&#x5821;&#x5792;&#x673A;&#x7684;&#x8BBF;&#x95EE;&#x5730;&#x5740;&#xFF09;</em></p>
-</li>
+<li>root&#x7528;&#x6237;&#x7684;authorized_keys&#x662F;&#x5426;&#x65E0;&#x4FE1;&#x4EFB;&#x7684;&#x516C;&#x94A5;</li>
+<li>sshd&#x662F;&#x5426;&#x7981;&#x6B62;&#x7A7A;&#x5BC6;&#x7801;&#x767B;&#x5F55;</li>
+<li>sshd&#x662F;&#x5426;&#x5F3A;&#x5236;V2 Protocol</li>
+<li>sshd&#x7684;LogLevel&#x662F;&#x5426;&#x8BBE;&#x7F6E;&#x4E3A;INFO&#x4EE5;&#x4E0A;</li>
+<li>sshd&#x662F;&#x5426;&#x7981;&#x6B62;root&#x8FDC;&#x7A0B;&#x767B;&#x5F55;</li>
+<li>sshd&#x7A7A;&#x95F2;&#x8D85;&#x65F6;&#x9000;&#x51FA;&#x65F6;&#x95F4;&#x662F;&#x5426;&#x5927;&#x4E8E;5&#x5206;&#x949F;</li>
+<li>sshd&#x7684;&#x767B;&#x5F55;&#x6B21;&#x6570;&#x662F;&#x5426;&#x9650;&#x5236;&#x5C0F;&#x4E8E;6&#x6B21;</li>
+<li>openssh&#x7248;&#x672C;&#x662F;&#x5426;&#x4E0D;&#x4F4E;&#x4E8E;openssh-8.0p1</li>
+<li>/etc/passwd&#x9664;root&#x5916;&#x662F;&#x5426;&#x65E0;UID&#x4E3A;0&#x7684;&#x9AD8;&#x6743;&#x9650;&#x8D26;&#x53F7;</li>
+<li>/etc/passwd&#x4E0B;&#x65E0;&#x9700;&#x767B;&#x5F55;&#x7684;&#x670D;&#x52A1;&#x8D26;&#x53F7;&#x662F;&#x5426;&#x5747;&#x4E3A;/sbin/nologin&#xFF0C;&#x6709;&#x7279;&#x6B8A;&#x7684;&#x8BF7;&#x5907;&#x6CE8;</li>
+<li>&#x6240;&#x6709;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x662F;&#x5426;&#x4E3A;8&#x4F4D;&#x4EE5;&#x4E0A;&#xFF0C;&#x4E14;&#x540C;&#x65F6;&#x5177;&#x5907;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x3001;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x3001;&#x7279;&#x6B8A;&#x5B57;&#x7B26;</li>
+<li>&#x662F;&#x5426;&#x5DF2;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x914D;&#x7F6E;&#x5BC6;&#x7801;&#x590D;&#x6742;&#x5EA6;&#x8981;&#x6C42;</li>
+<li>&#x662F;&#x5426;&#x5DF2;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x914D;&#x7F6E;&#x5BC6;&#x7801;&#x5931;&#x6548;&#x65F6;&#x95F4;&#x7B49;&#x4E8E;90&#x5929;</li>
+<li>&#x662F;&#x5426;&#x5DF2;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x914D;&#x7F6E;&#x5BC6;&#x7801;&#x4FEE;&#x6539;&#x6700;&#x5C0F;&#x95F4;&#x9694;&#x65F6;&#x95F4;&#x7B49;&#x4E8E;7&#x5929;</li>
+<li>&#x6240;&#x6709;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x662F;&#x5426;&#x5DF2;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x8BBE;&#x7F6E;&#x8B66;&#x544A;&#x5929;&#x6570;&#x7B49;&#x4E8E;7&#x5929;</li>
+<li>/etc/passwd /etc/shadow /etc/group /etc/gshadow&#x7684;&#x6240;&#x5C5E;&#x7528;&#x6237;/&#x7EC4;&#x662F;&#x5426;&#x4E3A;root&#xFF0C;&#x6743;&#x9650;644</li>
+<li>&#x662F;&#x5426;&#x5DF2;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x8BBE;&#x5B9A;&#x8BB0;&#x5F55;&#x6240;&#x6709;&#x7528;&#x6237;&#x7684;&#x767B;&#x5F55;&#x548C;&#x64CD;&#x4F5C;&#x65E5;&#x5FD7;</li>
+<li>&#x662F;&#x5426;&#x5DF2;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6253;&#x5F00;rsyslog&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;</li>
+<li>/etc/profile&#x4E0B;&#x662F;&#x5426;&#x5DF2;&#x914D;&#x7F6E;umask&#x503C;&#x4E3A;027</li>
+<li>&#x670D;&#x52A1;&#x7AEF;&#x53E3;&#x76D1;&#x542C;&#x662F;&#x5426;&#x6700;&#x5C0F;&#x5316;</li>
+<li>&#x662F;&#x5426;&#x672A;&#x914D;&#x7F6E;nfs/smb&#x6587;&#x4EF6;&#x5171;&#x4EAB;&#xFF0C;&#x5982;&#x5426;&#x8BF7;&#x5728;&#x5907;&#x6CE8;&#x5217;&#x51FA;&#x8BBF;&#x95EE;ip&#x53CA;&#x7528;&#x6237;&#x5E76;&#x786E;&#x8BA4;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5DF2;&#x6B63;&#x786E;&#x914D;&#x7F6E;</li>
 </ul>
 
                                 
@@ -1126,12 +1111,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 运维安全管理规范">
+                <a href="wang-luo-an-quan-yao-qiu/dui-zhi-jie-gong-yuan-cheng-deng-lu-de-fu-wu-qi-shi-fou-you-te-ding-de-an-quan-fang-hu-ff08-ru-vpn-3001-an-quan-zu-xian-ding-yuan-ip-3001-chun-nei-wang-fang-wen-ff09.html" class="navigation navigation-prev " aria-label="Previous page: 对直接供远程登陆的服务器是否有特定的安全防护（如vpn、安全组限定源ip、纯内网访问）">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.html" class="navigation navigation-next " aria-label="Next page: 是否已准确提供完整的服务器清单汇总表">
+                <a href="xi-tong-an-quan/rootyong-hu-de-authorized-keys-shi-fou-wu-xin-ren-de-gong-yao.html" class="navigation navigation-next " aria-label="Next page: root用户的authorized_keys是否无信任的公钥">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1142,7 +1127,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"操作安全","level":"1.2","depth":1,"next":{"title":"是否已准确提供完整的服务器清单汇总表","level":"1.2.1","depth":2,"path":"chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.md","ref":"chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.md","articles":[]},"previous":{"title":"运维安全管理规范","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1.md","mtime":"2019-08-06T09:44:28.266Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-04T07:06:01.334Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Linux系统安全","level":"1.4","depth":1,"next":{"title":"root用户的authorized_keys是否无信任的公钥","level":"1.4.1","depth":2,"path":"xi-tong-an-quan/rootyong-hu-de-authorized-keys-shi-fou-wu-xin-ren-de-gong-yao.md","ref":"xi-tong-an-quan/rootyong-hu-de-authorized-keys-shi-fou-wu-xin-ren-de-gong-yao.md","articles":[]},"previous":{"title":"对直接供远程登陆的服务器是否有特定的安全防护（如vpn、安全组限定源ip、纯内网访问）","level":"1.3.5","depth":2,"path":"wang-luo-an-quan-yao-qiu/dui-zhi-jie-gong-yuan-cheng-deng-lu-de-fu-wu-qi-shi-fou-you-te-ding-de-an-quan-fang-hu-ff08-ru-vpn-3001-an-quan-zu-xian-ding-yuan-ip-3001-chun-nei-wang-fang-wen-ff09.md","ref":"wang-luo-an-quan-yao-qiu/dui-zhi-jie-gong-yuan-cheng-deng-lu-de-fu-wu-qi-shi-fou-you-te-ding-de-an-quan-fang-hu-ff08-ru-vpn-3001-an-quan-zu-xian-ding-yuan-ip-3001-chun-nei-wang-fang-wen-ff09.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"xi-tong-an-quan.md","mtime":"2019-08-09T10:07:02.251Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-04T07:06:01.334Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
