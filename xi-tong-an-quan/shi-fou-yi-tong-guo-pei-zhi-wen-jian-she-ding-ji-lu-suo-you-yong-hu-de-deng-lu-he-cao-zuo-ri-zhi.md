@@ -2,7 +2,7 @@
 
 - 操作方法
 >  
-> ##### 将如下配置**追加**到/etc/profile
+> 将如下配置**追加**到/etc/profile
 >
 ```
  export HISTTIMEFORMAT='%F %T  '
