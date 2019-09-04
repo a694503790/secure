@@ -61,7 +61,6 @@
 * [应用安全](ying-yong-an-quan.md)
   * [应用版本更新前是否做好异机存放当前版本的备份再覆盖当前版本](ying-yong-an-quan/ying-yong-ban-ben-geng-xin-qian-shi-fou-zuo-hao-yi-ji-cun-fang-dang-qian-ban-ben-de-bei-fen-zai-fu-gai-dang-qian-ban-ben.md)
   * [应用系统是否存在单点故障的可能性](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-cun-zai-dan-dian-gu-zhang-de-ke-neng-xing.md)
-  * [应用系统上线前是否经过源代码漏洞扫描](ying-yong-an-quan/ying-yong-xi-tong-shang-xian-qian-shi-fou-jing-guo-yuan-dai-ma-lou-dong-sao-miao.md)
   * [应用系统上线前是否经过Web应用漏洞扫描](ying-yong-an-quan/ying-yong-xi-tong-shang-xian-qian-shi-fou-jing-guo-web-ying-yong-lou-dong-sao-miao.md)
   * [应用系统是否已设置错误页面重定向](zhong-jian-jian-an-quan/shi-fou-yi-she-zhi-cuo-wu-ye-mian-zhong-ding-xiang.md)
   * [应用系统是否有接入第三方提供的抗攻击（DDOS、WAF）服务](ying-yong-an-quan/ying-yong-xi-tong-shi-fou-you-jie-ru-di-san-fang-ti-gong-de-kang-gong-ji-ff08-ddos-waf-ff09-fu-wu.md)
