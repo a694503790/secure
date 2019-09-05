@@ -12,7 +12,7 @@
 > 根据Guest账号是否已禁用判断
 
 - 备注
-> 涉及Windows的，如仅Linux，Windows无需填写
+> 无
 
 
 
