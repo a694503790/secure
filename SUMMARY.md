@@ -40,7 +40,22 @@
   * [服务端口监听是否最小化](xi-tong-an-quan/fu-wu-duan-kou-jian-ting-shi-fou-zui-xiao-hua.md)
   * [是否未配置nfs/smb文件共享](xi-tong-an-quan/shi-fou-wei-pei-zhi-nfs-smb-wen-jian-gong-xiang.md)
 * [Windows系统安全](windowsxi-tong-an-quan.md)
-  * AA
+  * [是否已重命名Administrator账号](windowsxi-tong-an-quan/shi-fou-yizhong-ming-ming-administrator-zhang-hao.md)
+  * 是否已禁用Guest账号
+  * 是否按照用户分配帐户
+  * 是否定期检查并删除与无关帐户
+  * 是否设置不显示最后的用户名
+  * 是否已通过配置文件配置密码复杂度要求
+  * 是否已配置密码最长留存期
+  * 是否已配置帐户锁定策略
+  * 是否已配置本地关机只分配给Administrators组
+  * 是否已正确配置审核策略设置
+  * 是否已正确配置日志文件大小
+  * 是否已关闭默认共享
+  * 是否已正确配置共享文件夹授权访问
+  * 是否已配置屏幕保护密码和开启时间
+  * 是否已配置限制远程登录空闲断开时间
+  * 是否已打开Windows自动更新
 * [数据库安全](shu-ju-ku-an-quan.md)
   * [是否已禁止mysql以管理员帐号权限（root）启动运行](shu-ju-ku-an-quan/shi-fou-yi-jin-zhi-mysql-yi-guan-li-yuan-zhang-hao-quan-xian-ff08-root-ff09-qi-dong-yun-xing.md)
   * [是否已删除默认test库及默认空用户](shu-ju-ku-an-quan/shi-fou-yi-shan-chu-mo-ren-test-ku.md)
