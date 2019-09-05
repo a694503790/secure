@@ -47,7 +47,7 @@
   * [是否已通过配置文件配置密码复杂度要求](windowsxi-tong-an-quan/shi-fou-yi-tong-guo-pei-zhi-wen-jian-pei-zhi-mi-ma-fu-za-du-yao-qiu.md)
   * [是否已配置密码最长留存期](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-mi-ma-zui-chang-liu-cun-qi.md)
   * [是否已配置帐户锁定策略](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-zhang-hu-suo-ding-ce-lve.md)
-  * [是否已配置本地关机只分配给Administrators组](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-ben-di-guan-ji-zhi-fen-pei-gei-administrators-zu.md)
+  * [是否已配置关机只分配给Administrators组](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-ben-di-guan-ji-zhi-fen-pei-gei-administrators-zu.md)
   * [是否已正确配置审核策略设置](windowsxi-tong-an-quan/shi-fou-yi-zheng-que-pei-zhi-shen-he-ce-lve-she-zhi.md)
   * [是否已正确配置日志文件大小](windowsxi-tong-an-quan/shi-fou-yi-zheng-que-pei-zhi-ri-zhi-wen-jian-da-xiao.md)
   * [是否已关闭默认共享](windowsxi-tong-an-quan/shi-fou-yi-guan-bi-mo-ren-gong-xiang.md)
