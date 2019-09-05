@@ -49,8 +49,6 @@
   * [是否已配置帐户锁定策略](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-zhang-hu-suo-ding-ce-lve.md)
   * [是否已配置关机只分配给Administrators组](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-ben-di-guan-ji-zhi-fen-pei-gei-administrators-zu.md)
   * [是否已正确配置审核策略设置](windowsxi-tong-an-quan/shi-fou-yi-zheng-que-pei-zhi-shen-he-ce-lve-she-zhi.md)
-  * [是否已正确配置日志文件大小](windowsxi-tong-an-quan/shi-fou-yi-zheng-que-pei-zhi-ri-zhi-wen-jian-da-xiao.md)
-  * [是否已关闭默认共享](windowsxi-tong-an-quan/shi-fou-yi-guan-bi-mo-ren-gong-xiang.md)
   * [是否已正确配置共享文件夹授权访问](windowsxi-tong-an-quan/shi-fou-yi-zheng-que-pei-zhi-gong-xiang-wen-jian-jia-shou-quan-fang-wen.md)
   * [是否已配置屏幕保护密码和开启时间](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-ping-mu-bao-hu-mi-ma-he-kai-qi-shi-jian.md)
   * [是否已配置限制远程登录空闲断开时间](windowsxi-tong-an-quan/shi-fou-yi-pei-zhi-xian-zhi-yuan-cheng-deng-lu-kong-xian-duan-kai-shi-jian.md)
