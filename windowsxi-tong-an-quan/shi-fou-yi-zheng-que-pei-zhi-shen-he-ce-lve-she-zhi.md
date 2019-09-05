@@ -1,4 +1,4 @@
-# 是否已重命名Administrator账号
+# 是否已正确配置审核策略设置
 
 - 操作方法
 > Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
