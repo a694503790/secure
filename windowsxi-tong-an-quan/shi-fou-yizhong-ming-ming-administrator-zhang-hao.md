@@ -1,12 +1,14 @@
 # 是否已重命名Administrator账号
 
 - 操作方法
-> Windows的防火墙教程请参考[链接](https://help.aliyun.com/document_detail/51403.html)
-> Linux的防火墙教程请参考[链接](https://www.linuxprobe.com/chapter-08.html)
+> - 点击左下角windows键 选择【管理工具】 双击【计算机管理】
+  - 在 系统工具 > 本地用户和组 > 用户 中，右键 Administration 帐户
+  - 在属性中选中重命名，修改完名字后在空白地方点一下即可。
+  ![](/assets/图片 1.png)
 
 
 - 判断依据
-> 根据防火墙的规则是否符合《sheet 服务器清单汇总表》填写的端口判断
+> 根据有无Administrator账号判断
 
 - 备注
 > 如已通过云安全组进行限制，本项可不处理，但须提供云安全组的截图
