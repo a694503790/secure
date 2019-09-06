@@ -10,4 +10,6 @@
 
 ![](/assets/图片 19.png)
 
+> **附件** [《安全自查表》模版下载](https://www.qiumin.top/gui-fan-yao-qiu/ya-suo-bao-de-shang-bao-yao-qiu)
+
 

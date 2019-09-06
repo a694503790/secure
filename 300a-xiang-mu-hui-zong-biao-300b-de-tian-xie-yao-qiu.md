@@ -4,3 +4,5 @@
 &nbsp; &nbsp; &nbsp; &nbsp; 《项目汇总表》是记录业务部在本季度所管理的项目清单，由业务部**质量管理负责人**梳理填写。
 
 ![](/assets/图片 17.png)
+
+> **附件** [《项目汇总表》模版下载](https://www.qiumin.top/gui-fan-yao-qiu/ya-suo-bao-de-shang-bao-yao-qiu)
