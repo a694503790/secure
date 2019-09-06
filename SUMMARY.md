@@ -1,6 +1,9 @@
 # Summary
 
 * [运维安全管理规范](README.md)
+  * [《压缩包》的提交要求](ya-suo-bao-de-shang-bao-yao-qiu.md)
+  * 《项目汇总表》的填写要求
+  * 《安全自查表》的填写要求
 * [操作安全](chapter1.md)
   * [是否已准确提供完整的服务器清单汇总表](chapter1/shi-fou-yi-zhun-que-ti-gong-wan-zheng-de-fu-wu-qi-qing-dan-hui-zong-biao.md)
   * [开发以及运维的工作是否各司其职，涉及运维操作由运维进行变更](chapter1/kai-fa-yi-ji-yun-wei-de-gong-zuo-shi-fou-ge-si-qi-zhi-ff0c-she-ji-yun-wei-cao-zuo-you-yun-wei-jin-xing-bian-geng.md)
