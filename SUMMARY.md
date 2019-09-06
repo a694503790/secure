@@ -1,6 +1,7 @@
 # Summary
 
 * [运维安全管理规范](README.md)
+* [规范要求](gui-fan-yao-qiu.md)
   * [《压缩包》的提交要求](ya-suo-bao-de-shang-bao-yao-qiu.md)
   * [《项目汇总表》的填写要求](300a-xiang-mu-hui-zong-biao-300b-de-tian-xie-yao-qiu.md)
   * [《安全自查表》的填写要求](300a-an-quan-zi-cha-biao-300b-de-tian-xie-yao-qiu.md)
