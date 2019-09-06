@@ -5,4 +5,4 @@
 
 ![](/assets/图片 17.png)
 
-> **附件** [《项目汇总表》模版下载](https://www.qiumin.top/gui-fan-yao-qiu/ya-suo-bao-de-shang-bao-yao-qiu)
+> **附件** [《项目汇总表》模版下载](/assets/事业X部业务X部项目汇总表.xlsx)
