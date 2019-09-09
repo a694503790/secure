@@ -1,7 +1,7 @@
 # 中间件版本号是否符合安全要求
 
 * 操作方法
-> 以下为各软件的版本要求，安装方法参考官网
+> 以下为各软件的版本要求（各软件版本须不低于如下），安装方法参考官网
   - nginx----> [nginx-1.16.1](http://nginx.org/en/download.html)
   - haproxy---->[haproxy-2.0](https://www.haproxy.org/download/2.0/src/)
   - apache---->[apache-2.4.41](https://httpd.apache.org/download.cgi)
