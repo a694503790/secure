@@ -5,7 +5,7 @@
   2. 在 帐户策略 > 帐户锁定策略 
   3. 配置**帐户锁定阈值**不大于10次
 
-![](/assets/图片 8.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image8.png)
 
 - 判断依据
 > 根据是否配置相关策略判断

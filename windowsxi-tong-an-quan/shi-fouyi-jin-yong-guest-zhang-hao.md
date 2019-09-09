@@ -5,7 +5,7 @@
   2. 在 系统工具 > 本地用户和组 > 用户 
   3. 双击 Guest 帐户，在属性中选中**帐户已禁用**，单击 确定。
   
-![](/assets/图片 2.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image2.png)
 
 
 - 判断依据

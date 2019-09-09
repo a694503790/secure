@@ -5,7 +5,7 @@
   2. 在 本地策略 > 安全选项 
   3. 设置**Microsoft网络服务器：暂停会话前所需的空闲时间数量 属性为15分钟**
 
-![](/assets/图片 14.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image14.png)
 
 - 判断依据
 > 根据是否配置相关策略判断

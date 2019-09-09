@@ -5,7 +5,7 @@
   2. 在 帐户策略 > 密码策略
   3. 配置**密码最长使用期限**（默认是0） 不大于180天
 
-![](/assets/图片 7.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image7.png)
 
 - 判断依据
 > 根据是否配置相关策略判断

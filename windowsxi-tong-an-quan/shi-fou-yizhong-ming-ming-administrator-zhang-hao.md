@@ -5,7 +5,7 @@
   2. 在 系统工具 > 本地用户和组 > 用户 
   3. 右键 Administrator 帐户，在属性中选中重命名
   
-![](/assets/图片 1.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image1.png)
 
 
 - 判断依据

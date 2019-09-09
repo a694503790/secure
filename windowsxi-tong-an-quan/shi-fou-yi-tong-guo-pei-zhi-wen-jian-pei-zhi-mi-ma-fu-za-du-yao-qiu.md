@@ -5,7 +5,7 @@
   2. 在 帐户策略 > 密码策略
   3. 确认**密码必须符合复杂性要求**策略已启用
   
-![](/assets/图片 6.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image6.png)
 
 - 判断依据
 > 根据是否配置相关策略判断

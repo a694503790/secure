@@ -5,7 +5,7 @@
   2. 在 系统工具 > 本地用户和组 > 用户 
   3. 删除或锁定与设备运行、维护等与工作无关的帐户
   
-![](/assets/图片 3.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image3.png)
 
 
 - 判断依据

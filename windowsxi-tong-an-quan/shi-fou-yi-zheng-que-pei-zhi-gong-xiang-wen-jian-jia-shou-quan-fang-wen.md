@@ -4,7 +4,7 @@
 > 1. 点击左下角windows键 打开 控制面板 > 管理工具 > 计算机管理
   2. 在**共享文件夹**中，设置每个共享文件夹的共享权限
 
-![](/assets/图片 11.png)
+![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image11.png)
 
 - 判断依据
 > 根据是否有未在备注侧声明的共享文件夹判断
