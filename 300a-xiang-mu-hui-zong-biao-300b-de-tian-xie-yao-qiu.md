@@ -5,4 +5,4 @@
 
 ![](/assets/图片 17.png)
 
-> **附件** [《项目汇总表》模版下载](/assets/事业X部业务X部项目汇总表.xlsx)
+> **附件** [《项目汇总表》模版下载](https://do1-secure.oss-cn-beijing.aliyuncs.com/%E4%BA%8B%E4%B8%9AX%E9%83%A8%E4%B8%9A%E5%8A%A1X%E9%83%A8%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB%E8%A1%A8.xlsx)
