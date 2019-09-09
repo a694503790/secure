@@ -10,6 +10,6 @@
 
 ![](https://do1-secure.oss-cn-beijing.aliyuncs.com/image19.png)
 
-> **附件** [《安全自查表》模版下载](https://www.qiumin.top/gui-fan-yao-qiu/ya-suo-bao-de-shang-bao-yao-qiu)
+> **附件** [《安全自查表》模版下载](https://do1-secure.oss-cn-beijing.aliyuncs.com/XXX%E9%A1%B9%E7%9B%AE%E5%AE%89%E5%85%A8%E8%87%AA%E6%9F%A5%E8%A1%A8.xlsx)
 
 
